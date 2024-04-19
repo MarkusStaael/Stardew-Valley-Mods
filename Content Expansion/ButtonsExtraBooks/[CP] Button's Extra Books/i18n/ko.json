@@ -1,0 +1,61 @@
+{
+	// POWER LIST //
+	"Power.Luck.Name": "초심자의 행운",
+	"Power.Luck.Description": "행운수치가 영구적으로 조금 향상됩니다.",
+
+	"Power.ExtraGifts.Name": "이타주의 : 당신을 바꾸는 힘",
+	"Power.ExtraGifts.Description": "마을 사람들은 일주일에 두 개 이상의 선물을 받을 수 있습니다.",
+
+	"Power.TreesIgnoreSeason.Name": "겨울 산림학",
+	"Power.TreesIgnoreSeason.Description": "나무는 일년 내내 자랍니다.",
+	
+	"Power.ArtisanMachines.Name": "장인 조합 지침서",
+	////////////////////////////////////////////////////////////////////////
+	// TODO ////////////////////////////////////////////////////////////////
+	"Power.ArtisanMachines.Description": "Machines produce artisan goods much quicker.",
+	
+	"Power.GiantCrops.Name": "Big Melons",
+	"Power.GiantCrops.Description": "Giant crops have a higher chance of growing overnight.",
+	////////////////////////////////////////////////////////////////////////
+	////////////////////////////////////////////////////////////////////////
+
+	// BOOK ITEMS //
+	"Book.Luck.Name": "초심자의 행운",
+	"Book.Luck.Description": "이 책을 읽으면 운이 조금 더 좋아집니다.",
+
+	"Book.ExtraGifts.Name": "이타주의 : 당신을 바꾸는 힘",
+	"Book.ExtraGifts.Description": "이 책을 읽은 후, 마을 사람들에게 선물을 매주 두 개 이상 주는 법을 알게 됩니다.",
+
+	"Book.TreesIgnoreSeason.Name": "겨울 산림학",
+	"Book.TreesIgnoreSeason.Description": "이 책을 읽으면 겨울동안 나무를 기르는 방법에 대해 배울 수 있습니다.",
+	
+	"Book.ArtisanMachines.Name": "장인 조합 지침서",
+	////////////////////////////////////////////////////////////////////////
+	// TODO ////////////////////////////////////////////////////////////////
+	"Book.ArtisanMachines.Description": "The techniques contained within this book will help you produce artisan goods much quicker.",
+	
+	"Book.GiantCrops.Name": "Big Melons!",
+	"Book.GiantCrops.Description": "You will be more likely to grow giant crops after reading this book.",
+	////////////////////////////////////////////////////////////////////////
+	////////////////////////////////////////////////////////////////////////
+	
+	// MAIL //
+	"Mail.ArtisanGrange.Text": "저희 페른 제도의 장인 조합은 귀하가 양질의 장인 생산품을 만든 것에 대한 헌신과 노고를 인정하는바, 저희는 귀하를 자랑스럽게 여기고 있습니다. 최근 스타듀밸리 박람회에서 귀하의 장인 생산품 전시에 감사를 표하기 위해, 귀하가 장비를 좀 더 효율적으로 활용할 수 있도록 도와줄 지침서를 동봉했습니다.",
+	"Mail.ArtisanGrange.Title": "장인 조합",
+
+	// MISC DIALOGUE CHANGES //
+	"Dialogue.EnoughGifts": "이제 {0}한테는 충분히 선물을 주었어!",
+
+	// CONFIG OPTIONS //
+	"Config.TimeGate": "특정 책들은 충분한 시간이 경과하지 않으면 사용할 수 없습니다.",
+	
+	// DEBUG //
+	////////////////////////////////////////////////////////////////////////
+	// TODO ////////////////////////////////////////////////////////////////
+	"Debug.Book.RemoveAll.Name": "BEB Power Removal",
+	"Debug.Book.RemoveAll.Description": "Removes all powers granted to you by Button's Extra Books and refunds you their corresponding books.",
+	////////////////////////////////////////////////////////////////////////
+	////////////////////////////////////////////////////////////////////////
+}
+
+// Thank you hongdel on Nexusmods!

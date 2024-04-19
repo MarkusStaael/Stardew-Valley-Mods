@@ -1,0 +1,14 @@
+{
+    "CollectiveNames": [   
+    "Birch Bench",
+    "Oak Bench",
+    "Walnut Bench",
+    "Mahogany Bench",
+    "Modern Bench"
+  ],
+
+    "Type": "Furniture",
+    "TextureWidth": 80,
+    "TextureHeight": 96,
+    "Variations": 1
+  }

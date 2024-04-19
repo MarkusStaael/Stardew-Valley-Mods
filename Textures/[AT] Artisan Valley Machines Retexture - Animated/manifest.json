@@ -1,0 +1,13 @@
+{
+  "Name": "[AT] Artisan Valley Machines Retexture",
+  "Author": "Molamole",
+  "Version": "1.0.0",
+  "Description": "Some Artisan Valley Craftables retextures, with Mole touch",
+  "UniqueID": "Molamole.ArtisanValleyCraftablesRetexture.AT",
+  "UpdateKeys": [ "Nexus:20208" ],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "6.10.4"
+  }
+}

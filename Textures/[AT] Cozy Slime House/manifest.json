@@ -1,0 +1,13 @@
+{
+   "Name": "Cozy Slime House for AT",
+   "Author": "Zilch",
+   "Version": "1.0",
+   "Description": "Redesign 1.6 slime hutch",
+   "UniqueID": "Zilch.CozySlimeHouse.AT",
+   "UpdateKeys": [ "Nexus:21459@AT" ],
+   "MinimumApiVersion": "3.8.1",
+   "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "5.0.0"
+  }
+}

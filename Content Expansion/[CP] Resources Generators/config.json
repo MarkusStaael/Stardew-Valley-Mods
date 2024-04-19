@@ -1,0 +1,7 @@
+{
+  "Recipes_Requirement_WoodMachine": "normal",
+  "Recipes_Requirement_StoneMachine": "normal",
+  "Recipes_Requirement_ClayMachine": "normal",
+  "Recipes_Requirement_FiberMachine": "normal",
+  "Generate_Rate_Minutes": "720"
+}

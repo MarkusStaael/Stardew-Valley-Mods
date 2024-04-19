@@ -1,0 +1,14 @@
+{
+    "CollectiveNames": [   
+      "Clouds Banner",
+      "Icy Banner",
+      "Moonlight Jellies Banner",
+      "Pastel Banner",
+      "Winter Banner"
+  ],
+
+    "Type": "Furniture",
+    "TextureWidth": 16,
+    "TextureHeight": 48,
+    "Variations": 2
+  }

@@ -1,0 +1,61 @@
+{
+	// POWER LIST //
+	"Power.Luck.Name": "Chance du Débutant",
+	"Power.Luck.Description": "Chance augmentée en permanence d'une petite quantité.",
+	
+	"Power.ExtraGifts.Name": "Livre de l'Altruisme",
+	"Power.ExtraGifts.Description": "Les villageois acceptent plus de deux cadeaux par semaine.",
+	
+	"Power.TreesIgnoreSeason.Name": "Sylviculture d'Hiver",
+	"Power.TreesIgnoreSeason.Description": "Les arbres poussent toute l'année.",
+	
+	"Power.ArtisanMachines.Name": "Manuel de la guilde des artisans",
+	////////////////////////////////////////////////////////////////////////
+	// TODO ////////////////////////////////////////////////////////////////
+	"Power.ArtisanMachines.Description": "Machines produce artisan goods much quicker.",
+	
+	"Power.GiantCrops.Name": "Big Melons",
+	"Power.GiantCrops.Description": "Giant crops have a higher chance of growing overnight.",
+	////////////////////////////////////////////////////////////////////////
+	////////////////////////////////////////////////////////////////////////
+	
+	// BOOK ITEMS //
+	"Book.Luck.Name": "Chance du Débutant",
+	"Book.Luck.Description": "Lisez ce livre pour obtenir une augmentation mineure et permanente de chance.",
+	
+	"Book.ExtraGifts.Name": "Livre de l'Altruisme",
+	"Book.ExtraGifts.Description": "Après avoir lu ce livre, les villageois accepteront plus de deux cadeaux par semaine de votre part.",
+	
+	"Book.TreesIgnoreSeason.Name": "Sylviculture d'Hiver",
+	"Book.TreesIgnoreSeason.Description": "La lecture de ce livre vous apprendra à cultiver des arbres pendant la saison hivernale.",
+
+	"Book.ArtisanMachines.Name": "Manuel de la guilde des artisans",
+	////////////////////////////////////////////////////////////////////////
+	// TODO ////////////////////////////////////////////////////////////////
+	"Book.ArtisanMachines.Description": "The techniques contained within this book will help you produce artisan goods much quicker.",
+	
+	"Book.GiantCrops.Name": "Big Melons!",
+	"Book.GiantCrops.Description": "You will be more likely to grow giant crops after reading this book.",
+	////////////////////////////////////////////////////////////////////////
+	////////////////////////////////////////////////////////////////////////
+
+	// MAIL //
+	"Mail.ArtisanGrange.Text": "La Guilde des Artisans de la République de Ferngill est fière de reconnaître votre engagement pour des produits artisanaux de qualité. Pour vous remercier de votre récente exposition à la Foire de Stardew Valley, nous vous joignons un manuel qui, nous l'espérons, vous aidera à utiliser plus efficacement vos machines.",
+	"Mail.ArtisanGrange.Title": "Guilde des Artisans",
+
+	// MISC DIALOGUE CHANGES //
+	"Dialogue.EnoughGifts": "Vous avez offert suffisamment de cadeaux à ({0}) pour l'instant!",
+
+	// CONFIG OPTIONS //
+	"Config.TimeGate": "Si activé, un certain temps doit passer pour que certains livres soient disponibles.",
+	
+	// DEBUG //
+	////////////////////////////////////////////////////////////////////////
+	// TODO ////////////////////////////////////////////////////////////////
+	"Debug.Book.RemoveAll.Name": "BEB Power Removal",
+	"Debug.Book.RemoveAll.Description": "Removes all powers granted to you by Button's Extra Books and refunds you their corresponding books.",
+	////////////////////////////////////////////////////////////////////////
+	////////////////////////////////////////////////////////////////////////
+}
+
+// Thank you Schneitizel on Nexusmods!

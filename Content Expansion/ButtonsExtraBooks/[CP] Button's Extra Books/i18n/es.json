@@ -1,0 +1,61 @@
+{
+    // POWER LIST //
+    "Power.Luck.Name": "Suerte del principiante",
+    "Power.Luck.Description": "La estadística de suerte aumentó permanentemente en una pequeña cantidad.",
+    
+    "Power.ExtraGifts.Name": "Libro del altruismo",
+    "Power.ExtraGifts.Description": "Los aldeanos aceptarán más de dos regalos por semana.",
+    
+    "Power.TreesIgnoreSeason.Name": "Bosques de invierno",
+    "Power.TreesIgnoreSeason.Description": "Los árboles crecen durante todo el año.",
+	
+	"Power.ArtisanMachines.Name": "Manual del gremio de artesanos",
+	////////////////////////////////////////////////////////////////////////
+	// TODO ////////////////////////////////////////////////////////////////
+	"Power.ArtisanMachines.Description": "Machines produce artisan goods much quicker.",
+	
+	"Power.GiantCrops.Name": "Big Melons",
+	"Power.GiantCrops.Description": "Giant crops have a higher chance of growing overnight.",
+	////////////////////////////////////////////////////////////////////////
+	////////////////////////////////////////////////////////////////////////
+    
+    // BOOK ITEMS //
+    "Book.Luck.Name": "Suerte del principiante",
+    "Book.Luck.Description": "Leer este libro aumentará la estadística de suerte permanentemente en una pequeña cantidad.",
+    
+    "Book.ExtraGifts.Name": "Libro del altruismo",
+    "Book.ExtraGifts.Description": "Después de leer este libro, los aldeanos aceptarán más de dos regalos por semana.",
+    
+    "Book.TreesIgnoreSeason.Name": "Bosques de invierno",
+    "Book.TreesIgnoreSeason.Description": "Leer este libro le enseñará a cultivar árboles durante la temporada de invierno.",
+	
+	"Book.ArtisanMachines.Name": "Manual del gremio de artesanos",
+	////////////////////////////////////////////////////////////////////////
+	// TODO ////////////////////////////////////////////////////////////////
+	"Book.ArtisanMachines.Description": "The techniques contained within this book will help you produce artisan goods much quicker.",
+	
+	"Book.GiantCrops.Name": "Big Melons!",
+	"Book.GiantCrops.Description": "You will be more likely to grow giant crops after reading this book.",
+	////////////////////////////////////////////////////////////////////////
+	////////////////////////////////////////////////////////////////////////
+	
+	// MAIL //
+	"Mail.ArtisanGrange.Text": "El Gremio de Artesanos de la República Ferngill se enorgullece de reconocer su compromiso con los productos artesanales de calidad. Como muestra de nuestro agradecimiento por su reciente exhibición en la Feria de Stardew Valley, adjuntamos un manual que esperamos le ayude a utilizar su maquinaria de una manera más eficiente.",
+	"Mail.ArtisanGrange.Title": "Gremio de artesanos",
+    
+    // MISC DIALOGUE CHANGES //
+    "Dialogue.EnoughGifts": "Has dado {0} ¡Suficientes regalos por ahora!",
+    
+    // CONFIG OPTIONS //
+    "Config.TimeGate": "Si ciertos libros no están disponibles o no a menos que haya transcurrido suficiente tiempo.",
+	
+	// DEBUG //
+	////////////////////////////////////////////////////////////////////////
+	// TODO ////////////////////////////////////////////////////////////////
+	"Debug.Book.RemoveAll.Name": "BEB Power Removal",
+	"Debug.Book.RemoveAll.Description": "Removes all powers granted to you by Button's Extra Books and refunds you their corresponding books.",
+	////////////////////////////////////////////////////////////////////////
+	////////////////////////////////////////////////////////////////////////
+}
+
+// Thank you CarlosRojasCu on Nexusmods!

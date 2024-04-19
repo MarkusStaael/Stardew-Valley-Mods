@@ -1,0 +1,14 @@
+{
+    "Name": "[AT] Greenhouse Garden Furniture",
+    "Author": "HimeTarts and Wildflour",
+    "Version": "1.0.0",
+    "Description": "Fairy Garden Furniture",
+    "UniqueID": "himewildflour.GreenhouseFurnitureAT",
+    "UpdateKeys": [],
+    "Dependencies": [],
+    "ContentPackFor": {
+      "UniqueID": "PeacefulEnd.AlternativeTextures",
+      "MinimumVersion": "3.3.2"
+    }
+  }
+  
