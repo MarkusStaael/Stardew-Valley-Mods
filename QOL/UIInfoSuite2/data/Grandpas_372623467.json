@@ -27,6 +27,7 @@
   "ShowTodaysGifts": true,
   "HideBirthdayIfFullFriendShip": true,
   "ShowLocationOfFriends": {
-    "Robin": true
+    "Robin": true,
+    "Evelyn": false
   }
 }
