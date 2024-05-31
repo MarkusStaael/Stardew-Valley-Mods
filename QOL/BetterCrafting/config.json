@@ -32,7 +32,7 @@
   "RecycleUnknownRecipes": false,
   "RecycleFuzzyItems": false,
   "RecycleHigherQuality": true,
-  "UseUniformGrid": false,
+  "UseUniformGrid": true,
   "SortBigLast": false,
   "CraftingAlphabetic": false,
   "DisplayUnknownCrafting": false,
