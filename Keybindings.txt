@@ -1,2 +1,6 @@
 V,X - https://www.nexusmods.com/stardewvalley/mods/21339
 F1 - Look up anything
+
+Better chests - https://www.nexusmods.com/stardewvalley/mods/9791?tab=files
+Z - Store to nearby
+Ctrl + F search for item
