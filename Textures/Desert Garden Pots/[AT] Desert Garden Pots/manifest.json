@@ -1,0 +1,12 @@
+{
+   "Name": "Desert Garden Pots",
+   "Author": "JennaJuffuffles",
+   "Version": "1.0.0",
+   "Description": "Reskin for the garden pots. Based on Free Cactus pots.",
+   "UniqueID": "JennaJuffuffles.DesertGardenPot.AT",
+   "UpdateKeys": [ "Nexus:23929@AT" ],
+   "ContentPackFor": {
+		"UniqueID": "PeacefulEnd.AlternativeTextures",
+		"MinimumVersion": "7.2.6"
+   },
+}
