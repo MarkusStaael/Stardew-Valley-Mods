@@ -1,0 +1,25 @@
+{
+   "CollectiveNames": [
+      "Ceramic Pillar",
+      "Gold Pillar",
+      "Industrial Pipe",
+      "Indoor Palm",
+      "Totem Pole",
+      "Manicured Pine",
+      "Topiary Tree",
+      "Tree Column",
+      "Purple Serpent Statue",
+      "Green Serpent Statue",
+      "Long Cactus",
+      "Calico Statue",
+      "CoatStand",
+      "BirdHouse",
+      "TallHousePlant",
+      "CornPlant"
+  ],
+  "Type": "Furniture",
+  "TextureWidth": 16,
+  "TextureHeight": 48,
+  "Variations": 7,
+  "Keywords": [ "Bathroom" ] 
+}

@@ -1,0 +1,11 @@
+{
+  "Name": "Bathroom Furniture for Alternative Textures",
+  "Author": "FarmerBeans",
+  "Version": "1.0.1",
+  "Description": "Alternative Textures for Bathroom Furniture and Decor",
+  "UniqueID": "FarmerBeans.BathroomAT",
+  "UpdateKeys": ["Nexus:25684"],
+   "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures"
+  }
+}

@@ -1,0 +1,21 @@
+{
+   "CollectiveNames": [
+      "DecorativeJojaDoor",
+      "DecorativeWizardDoor",
+      "DecorativeJunimoDoor",
+      "DecorativeRetroDoor",
+      "DecorativeDoor1",
+      "DecorativeDoor2",
+      "DecorativeDoor3",
+      "DecorativeDoor4",
+      "DecorativeDoor5",
+      "DecorativeDoor6",
+      "Model Planes",
+      "'Squid Kid'"
+  ],
+  "Type": "Furniture",
+  "TextureWidth": 32,
+  "TextureHeight": 48,
+  "Variations": 7,
+  "Keywords": [ "Bathroom"  ] 
+}

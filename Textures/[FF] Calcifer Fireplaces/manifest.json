@@ -1,0 +1,12 @@
+{
+  "Name": "[FF] Calcifer Fireplaces",
+  "Author": "Sharogg",
+  "Version": "1.0.2",
+  "Description": "Adds fireplaces inhabited by fire demon Calcifer.",
+  "UniqueID": "Sharogg.CalciferFireplaces",
+  "UpdateKeys": ["Nexus:26134"],
+  "ContentPackFor": {
+    "UniqueID": "leroymilo.FurnitureFramework",
+    "MinimumVersion": "2.0.0"
+  }
+}

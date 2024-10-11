@@ -2,6 +2,10 @@
     /*********
     ** Generic translations
     *********/
+    // language info
+    "generic.list-separator": ", ", // text between listed values (like ", " in "A, B, C")
+    "generic.line-wrap-on": "",     // characters after which we can line-wrap text if needed, even if there's no space
+
     // date names
     "generic.now": "jetzt",
     "generic.tomorrow": "morgen",
@@ -27,6 +31,7 @@
     "generic.price": "{{price}}g",
     "generic.price-for-quality": "{{price}}g ({{quality}})",
     "generic.price-for-stack": "{{price}}g für einen Stapel von {{count}}",
+    "generic.show-x-results": "zeige {{count}} Ergebnisse",
 
     // types
     "type.building": "Gebäude",
@@ -44,6 +49,9 @@
     "quality.silver": "Silber",
     "quality.gold": "Gold",
     "quality.iridium": "Iridium",
+
+    // item names shown in recipes
+    "item.wild-seeds": "Wild Seeds (Any)", // TODO
 
     // NPC friendship
     "friendship-status.friendly": "Freundlich",
@@ -97,31 +105,19 @@
     "data.item.box.description": "Zerschlage sie um verschiedenes Gut zu erhalten.",
 
     // location names
-    "location.backwoods": "Unentdeckter Wald",
-    "location.beach": "Strand",
     "location.beach.east-pier": "Strand (östliches Pier)",
     "location.bugLand": "Mutantenkäferhöhle",
-    "location.busStop": "Bushaltestelle",
-    "location.desert": "Wüste",
-    "location.desert.topPond": "desert (north pond)", // TODO
-    "location.farm": "Bauernhof",
-    "location.farmCave": "Bauernhof Höhle",
+    "location.desert.topPond": "Wüste (nördlicher Teich)",
+    "location.farmCave": "Bauernhof-Höhle",
     "location.farmHouse": "Bauernhaus",
-    "location.forest": "Wald",
     "location.forest.island-tip": "Waldfluss (Südspitze der großen Insel)",
     "location.forest.lake": "Waldteich",
     "location.forest.river": "Waldfluss",
-    "location.mountain": "Berge",
-    "location.railroad": "Eisenbahn",
-    "location.sewer": "Kanalisation",
-    "location.submarine": "Nachtmarkt Tiefsee-U-boot",
-    "location.town": "Stadt",
+    "location.submarine": "Nachtmarkt Tiefsee-U-Boot",
     "location.town.northmost-bridge": "Stadt (Nord-östliche Brücke)",
-    "location.tunnel": "Bus Tunnel",
     "location.undergroundMine": "Mine",
-    "location.undergroundMine.level": "Minen Level {{level}}",
+    "location.undergroundMine.level": "Minenebene {{level}}",
     "location.witchSwamp": "Hexensumpf",
-    "location.woods": "Geheimnisvolle Wälder",
 
     "location.caldera": "Feuerberg",
     "location.islandEast": "Insel Ost",
@@ -133,7 +129,37 @@
     "location.islandWest.freshwater": "Insel West (Teich)",
     "location.islandWest.ocean": "Insel West (Meer)",
 
+    "location.fish-area": "{{locationName}} ({{areaName}})",
     "location.unknown-fish-area": "{{locationName}} (Angelgebiet {{id}})",
+
+
+    /*********
+    ** Conditions & context tags
+    *********/
+    "condition-or-context-tag.negate": "nicht {{value}}",
+
+    "condition.day-of-month": "on specific days ({{days}})", // TODO
+    "condition.day-of-month.even": "even days", // TODO
+    "condition.day-of-month.odd": "odd days", // TODO
+
+    "condition.item-type.input": "Eingabe Item",
+    "condition.item-type.target": "Ziel Item",
+
+    "condition.raw-context-tag": "context tag \"{{tag}}\"", // TODO
+    "condition.raw-condition": "query \"{{tag}}\"", // TODO
+
+    "condition.item-context-tag": "{{item}} hat Kontext Tag {{tags}}",
+    "condition.item-context-tags": "{{item}} hat Kontext Tags {{tags}}",
+    "condition.item-context-tag.value": "'{{tag}}'", // the format of each context tag in the list (each context tag isn't translated)
+
+    "condition.item-edibility.edible": "{{item}} ist essbar",
+    "condition.item-edibility.min": "{{item}} hat Essbarkeit von {{min}} oder mehr",
+    "condition.item-edibility.range": "{{item}} hat Essbarkeit von {{min}} bis {{max}}",
+
+    "context-tag.bone": "Beliebige Knochen",
+    "context-tag.egg": "Beliebige Eier",
+    "context-tag.large-egg": "Beliebige große Eier",
+    "context-tag.preserved-item": "eingemacht {{name}}",
 
 
     /*********
@@ -315,9 +341,13 @@
     "item.needed-for.gourmet-chef": "\"Gourmetkoch\" Errungenschaft (koche {{recipes}})",
     "item.needed-for.craft-master": "\"Handwerksmeister\" Errungenschaft (stelle {{recipes}} her)",
     "item.needed-for.quests": "aktuelle Aufgaben ({{quests}})",
+    "item.unknown-recipes": "{{count}} unbekannte Rezepte",
     "item.sells-to.shipping-box": "Versandkiste",
     "item.recipes-for-ingredient.entry": "{{name}} (braucht {{count}})",
     "item.recipes-for-machine.multiple-items": "{{name}} x{{count}}",
+    "item.recipes-for-machine.same-as-input": "[Gleiches wie Eingabe]", // e.g. crystalarium produces same item that was put in
+    "item.recipes-for-machine.conditions": "[Bedingung: {{conditions}}]",
+    "item.recipes-for-machine.too-complex": "Einige Maschinen-Regeln sind zu dynamisch, um sie anzuzeigen.",
     "item.number-owned.summary": "Du besitzt {{count}} davon",
     "item.number-crafted.summary": "Du hast bereits {{count}} davon hergestellt",
 
@@ -360,11 +390,11 @@
     ** Item > fish lookups
     *********/
     // labels
-    "item.fish-pond-drops": "Fischteich Items",
-    "item.fish-spawn-rules": "Spawn Regeln",
+    "item.fish-pond-drops": "Fischteich-Produktion",
+    "item.fish-spawn-rules": "Spawn-Regeln",
 
     // values
-    "item.fish-spawn-rules.min-fishing-level": "Mindest Angelstufe: {{level}}",
+    "item.fish-spawn-rules.min-fishing-level": "Mindest-Angelstufe: {{level}}",
     "item.fish-spawn-rules.not-caught-yet": "Noch nicht gefangen (kann nur einmal gefangen werden)",
     "item.fish-spawn-rules.locations": "Standorte: {{locations}}",
     "item.fish-spawn-rules.locations-by-season.label": "Standorte:",
@@ -537,7 +567,7 @@
 
     // values
     "puzzle.solution.solved": "Rätsel gelöst!",
-    "puzzle.solution.hidden": "Lösungen der Rätsel sind im Fortschrittsmodus nicht sichtbar.",
+    "puzzle.solution.hidden": "Lösungen der Rätsel sind gemäß Ihrer Einstellungen nicht sichtbar.",
 
 
     /*********
@@ -557,17 +587,18 @@
     ** Puzzles > Fern Islands mermaid puzzle
     *********/
     // labels
-    "puzzle.island-mermaid.title": "Meerjungfrauen Rätsel",
+    "puzzle.island-mermaid.title": "Meerjungfrauen-Rätsel",
     "puzzle.island-mermaid.solution.intro": "Benutze Flötenblöcke um das Lied der Meerjungfrau vom Nachtmarkt zu spielen. Tonhöhen: (Es ist möglich die Tonhöhe eines Flötenblocks nachzusehen):",
+
 
     /*********
     ** Puzzles > Fern Islands shrine puzzle
     *********/
     // labels
-    "puzzle.island-shrine.title": "Edelsteinvogel Rätsel",
-    "puzzle.island-shrine.solution": "Lege den Edelstein auf den Sockel der vom Edelsteinvogel am passenden Ort bei Regen gelegt wurde. Die Edelsteine sind für jeden Speicherstand zufällig.",
+    "puzzle.island-shrine.title": "Edelsteinvogel-Rätsel",
 
     // values
+    "puzzle.island-shrine.solution": "Lege den Edelstein auf den Sockel der vom Edelsteinvogel am passenden Ort bei Regen gelegt wurde. Die Edelsteine sind für jeden Speicherstand zufällig.",
     "puzzle.island-shrine.solution.east": "Osten: {{item}}",
     "puzzle.island-shrine.solution.north": "Norden: {{item}}",
     "puzzle.island-shrine.solution.south": "Süden: {{item}}",
@@ -616,8 +647,8 @@
     "tree.name.oak": "Eichenbaum",
     "tree.name.palm": "Palme",
     "tree.name.pine": "Tannenbaum",
-    "tree.name.mossy": "Mossy Tree", // TODO
-    "tree.name.mystic": "Mystic Tree", // TODO
+    "tree.name.mossy": "Moosiger Baum",
+    "tree.name.mystic": "Mystischer Baum",
     "tree.name.unknown": "unbekannter Baum",
     "tree.stage.done": "Voll ausgewachsen",
     "tree.stage.partial": "{{stageName}} ({{step}} von {{max}})",
@@ -641,11 +672,21 @@
     ** Generic Mod Config Menu UI
     *********/
     // main options
-    "config.title.main-options": "Haupt Optionen",
-    "config.progression-mode.name": "Fortschritts Modus",
-    "config.progression-mode.desc": "Ob bestimmte Inhalte (z. B. Geschenkvorlieben und Rätsellösungen) versteckt werden sollen, bis man sie im Spiel entdeckt hat.",
+    "config.title.main-options": "Hauptoptionen",
     "config.force-full-screen.name": "Erzwinge Vollbild",
     "config.force-full-screen.desc": "Legt fest, ob das Menü immer als Vollbild angezeigt werden soll, anstatt in der Mitte des Fensters. Dies ist vor allem bei der Anzeige von Data Mining Feldern nützlich.",
+
+    // progression mode
+    "config.title.progression": "Fortschrittsmodus",
+
+    "config.progression.show-unknown-gift-tastes.name": "Unbekannte Geschenke Vorlieben anzeigen",
+    "config.progression.show-unknown-gift-tastes.desc": "Ob Geschenk Vorlieben gezeigt werden sollen, die du im Spiel noch nicht kennengelernt hast (z. B. aus Dialogtexten oder beim Experimentieren).",
+
+    "config.progression.show-unknown-recipes.name": "Unbekannte Rezepte anzeigen",
+    "config.progression.show-unknown-recipes.desc": "Ob Rezepte angezeigt werden sollen, die im Spiel noch nicht erlernt wurden.",
+
+    "config.progression.show-puzzle-solutions.name": "Puzzle-Lösungen anzeigen",
+    "config.progression.show-puzzle-solutions.desc": "Ob Puzzle-Lösungen angezeigt werden sollen.",
 
     // gift tastes
     "config.title.gift-tastes": "Geschenke-Geschmäcker",
@@ -665,6 +706,17 @@
 
     "config.highlight-unrevealed-gift-tastes.name": "Hebe unentdeckte Geschenkvorlieben hervor",
     "config.highlight-unrevealed-gift-tastes.desc": "Hervorhebung von Gegenstandsgeschenken, die im NSC-Profil noch nicht offenbart wurden. Wenn diese Option aktiviert ist, werden nicht enthüllte Geschenkvorlieben fett dargestellt.",
+
+    // collapse fields
+    "config.title.collapse-fields": "Große Felder einklappen",
+
+    "config.collapse-fields.enabled.name": "Aktiviert",
+    "config.collapse-fields.enabled.desc": "Ob große Felder eingeklappt werden sollen, so dass das Nachschlagemenü die Liste durch einen anklickbaren Link 'X Werte anzeigen' ersetzt, um sie zu erweitern.",
+
+    "config.collapse-fields.building-recipes.name": "Suche nach Gebäuden: Rezepte",
+    "config.collapse-fields.item-recipes.name": "Suche nach Artikeln: Rezepte",
+    "config.collapse-fields.npc-gift-tastes.name": "NPC-Suche: Geschenk-Vorlieben",
+    "config.collapse-fields.any.desc": "Wenn das Feld so viele Werte enthält, ersetzt das Nachschlagemenü die Liste durch einen anklickbaren Link 'X Werte anzeigen', um sie zu erweitern.",
 
     // advanced options
     "config.title.advanced-options": "Erweiterte Optionen",

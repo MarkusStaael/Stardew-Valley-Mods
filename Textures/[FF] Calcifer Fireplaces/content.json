@@ -1,0 +1,103 @@
+{
+  "Format": 2,
+  "Furniture": {
+    "Sharogg.Vanilla_Fireplace": {
+      "Display Name": "{{ImageVariant}} Fireplace",
+      "Description": "Calcifer lives in this fireplace.",
+      "Rotations": 1,
+      "Collisions": { "Width": 2, "Height": 1 },
+      "Placement Restriction": 2,
+      "Source Image": {
+        "Brick": "assets/Brick.png",
+        "Stone": "assets/Stone.png",
+        "Iridium": "assets/Iridium.png",
+        "Stove": "assets/Stove.png",
+        "Monster": "assets/Monster.png",
+        "Elegant": "assets/Elegant.png",
+        "Desert": "assets/Desert.png",
+        "Joja": "assets/Joja.png",
+        "Junimo": "assets/Junimo.png",
+        "Retro": "assets/Retro.png",
+        "Wizard": "assets/Wizard.png"
+      },
+      "Source Rect": { "X": 0, "Y": 0, "Width": 32, "Height": 80 },
+      "Toggle": true,
+      "Light Sources": [
+        {
+          "Position": { "X": 16, "Y": -2 },
+          "Source Image": "assets/sconceLight_fire.png",
+          "Mode": "when_on",
+          "Radius": 2.5,
+          "Is Glow": false
+        },
+        {
+          "Position": { "X": 16, "Y": -2 },
+          "Source Image": "assets/sconceLight_blue.png",
+          "Mode": "when_off",
+          "Radius": 0.2,
+          "Is Glow": false
+        }
+      ],
+      "Sounds": [
+        {
+          "Mode": "on_turn_on",
+          "Name": "fireball"
+        },
+        {
+          "Mode": "on_turn_off",
+          "Name": "fireball"
+        }
+      ],
+      "Frame Count": 4,
+      "Frame Duration": 100,
+      "Animation Offset": { "X": 0, "Y": 80 },
+      "Seasonal": false,
+      "Price": 5000,
+      "Exclude from Random Sales": false,
+      "Shows in Shops": ["Carpenter"]
+    },
+    "Sharogg.Howls_Fireplace": {
+      "Display Name": "Howl's Fireplace",
+      "Description": "Calcifer lives in this fireplace.",
+      "Rotations": 1,
+      "Collisions": { "Width": 3, "Height": 1 },
+      "Placement Restriction": 2,
+      "Source Image": "assets/Howls.png",
+      "Source Rect": { "X": 0, "Y": 0, "Width": 48, "Height": 80 },
+      "Toggle": true,
+      "Light Sources": [
+        {
+          "Position": { "X": 24, "Y": -5 },
+          "Source Image": "assets/sconceLight_fire.png",
+          "Mode": "when_on",
+          "Radius": 3,
+          "Is Glow": false
+        },
+        {
+          "Position": { "X": 24, "Y": -5 },
+          "Source Image": "assets/sconceLight_blue.png",
+          "Mode": "when_off",
+          "Radius": 0.2,
+          "Is Glow": false
+        }
+      ],
+      "Sounds": [
+        {
+          "Mode": "on_turn_on",
+          "Name": "fireball"
+        },
+        {
+          "Mode": "on_turn_off",
+          "Name": "fireball"
+        }
+      ],
+      "Frame Count": 4,
+      "Frame Duration": 100,
+      "Animation Offset": { "X": 0, "Y": 80 },
+      "Seasonal": false,
+      "Price": 7000,
+      "Exclude from Random Sales": false,
+      "Shows in Shops": ["Carpenter"]
+    }
+  }
+}

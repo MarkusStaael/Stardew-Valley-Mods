@@ -1,0 +1,13 @@
+{
+   "CollectiveNames": [
+      "Bamboo Mat",
+      "SmallJojaRug",
+      "SmallJunimoMat",
+      "RetroMat"
+  ],
+  "Type": "Furniture",
+  "TextureWidth": 48,
+  "TextureHeight": 32,
+  "Variations": 8,
+  "Keywords": [ "Bathroom"  ] 
+}

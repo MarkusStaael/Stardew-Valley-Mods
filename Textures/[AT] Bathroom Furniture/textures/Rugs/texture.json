@@ -1,0 +1,25 @@
+{
+   "CollectiveNames": [
+      "Light Green Rug",
+      "JojaRug",
+      "SwirlRug",
+      "Red Rug",
+      "Patchwork Rug",
+      "Dark Rug",
+      "Red Cottage Rug",
+      "Green Cottage Rug",
+      "Mystic Rug",
+      "Pirate Rug",
+      "Bone Rug",
+      "Fruit Salad Rug",
+      "Snowy Rug",
+      "Oceanic Rug",
+      "JunimoMat",
+      "RetroRug"
+  ],
+  "Type": "Furniture",
+  "TextureWidth": 80,
+  "TextureHeight": 48,
+  "Variations": 12,
+  "Keywords": [ "Bathroom"  ] 
+}

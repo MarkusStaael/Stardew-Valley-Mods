@@ -28,6 +28,6 @@
   "HideBirthdayIfFullFriendShip": true,
   "ShowLocationOfFriends": {
     "Robin": true,
-    "Evelyn": false
+    "Evelyn": true
   }
 }

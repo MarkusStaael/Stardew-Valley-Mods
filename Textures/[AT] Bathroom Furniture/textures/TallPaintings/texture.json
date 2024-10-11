@@ -1,0 +1,33 @@
+{
+   "CollectiveNames": [
+      "Wall Flower",
+      "S. Wall Flower",
+      "Clouds Banner",
+      "Pastel Banner",
+      "Winter Banner",
+      "Moonlight Jellies Banner",
+      "Jungle Decal",
+      "Starport Decal",
+      "Decorative Pitchfork",
+      "Wood Panel",
+      "Decorative Axe",
+      "Log Panel",
+      "Icy Banner",
+      "Wall Palm",
+      "Wall Cactus",
+      "Sam's Skateboard",
+      "WitchBroom",
+      "LeafyWallPanel",
+      "LightLeafyWallPanel",
+      "DarkLeafyWallPanel",
+      "RetroBanner",
+      "DecorativeShovel",
+      "WallSword",
+      "Outlet"
+  ],
+  "Type": "Furniture",
+  "TextureWidth": 16,
+  "TextureHeight": 48,
+  "Variations": 9,
+  "Keywords": [ "Bathroom" ] 
+}

@@ -1,0 +1,25 @@
+{
+   "CollectiveNames": [
+      "PottedRedMushroom",
+      "RetroFlower",
+      "PlasticPlant",
+      "PlasticSapling", 
+      "SmallJunimoPot",
+      "Small Plant",
+      "Table Plant",
+      "Decorative Bowl",
+      "Small Crystal",
+      "Futan Bear",
+      "Small Junimo Plush",
+      "Futan Rabbit",
+      "JojaColaCans",
+      "CashRegister",
+      "ElixirBundle",
+      "CoupleElixirs"
+  ],
+  "Type": "Furniture",
+  "TextureWidth": 16,
+  "TextureHeight": 16,
+  "Variations": 16,
+  "Keywords": [ "Bathroom" ] 
+}

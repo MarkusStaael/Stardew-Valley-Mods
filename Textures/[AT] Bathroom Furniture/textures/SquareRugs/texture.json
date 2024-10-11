@@ -1,0 +1,16 @@
+{
+   "CollectiveNames": [
+      "Monster Rug",
+      "Burlap Rug",
+      "Woodcut Rug",
+      "SquareJojaRug",
+      "RuneRug",
+      "SquareJunimoRug",
+      "RetroSquareRug"
+  ],
+  "Type": "Furniture",
+  "TextureWidth": 32,
+  "TextureHeight": 32,
+  "Variations": 8,
+  "Keywords": [ "Bathroom"  ] 
+}

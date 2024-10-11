@@ -1,0 +1,19 @@
+{
+  "CollectiveNames": [
+    "Oak Dresser",
+    "Walnut Dresser",
+    "Birch Dresser",
+    "Mahogany Dresser",
+    "JojaDresser",
+    "GrayJojaDresser",
+    "JunimoDresser",
+    "RetroDresser",
+    "WizardDresser"
+  ],
+  "Type": "Furniture",
+  "TextureWidth": 80,
+  "TextureHeight": 48,
+  "Variations": 6,
+  "Keywords": [ "Bathroom" ] 
+  
+}

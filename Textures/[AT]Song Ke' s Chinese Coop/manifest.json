@@ -1,0 +1,11 @@
+﻿{
+  "Name": "[AT]Song Ke' s Chinese Coop",
+  "Author": "SongKe",
+  "Version": "1.0",
+  "Description": "Song Ke' s Chinese coop.",
+  "UniqueID": "SongKe.ChineseCoop",
+  "UpdateKeys": [27560],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures"
+  }
+}

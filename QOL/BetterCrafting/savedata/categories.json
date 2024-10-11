@@ -1,208 +1,6 @@
 {
-  "-817980709379455873": {
-    "Cooking": [
-      {
-        "Id": "farming",
-        "Name": "Farming and Foraging",
-        "I18nKey": "category.food.farming",
-        "UseRules": true,
-        "DynamicRules": [
-          {
-            "Id": "Buff",
-            "Inverted": false,
-            "Input": "stat:Farming"
-          },
-          {
-            "Id": "Buff",
-            "Inverted": false,
-            "Input": "stat:Foraging"
-          }
-        ],
-        "Icon": {
-          "Type": "Texture",
-          "Source": "MouseCursors",
-          "Rect": {
-            "X": 10,
-            "Y": 428,
-            "Width": 10,
-            "Height": 10
-          },
-          "Scale": 1.0,
-          "Frames": 1
-        },
-        "Recipes": [],
-        "UnwantedRecipes": null,
-        "IncludeInMisc": false
-      },
-      {
-        "Id": "mining",
-        "Name": "Mining and Magnetism",
-        "I18nKey": "category.food.mining",
-        "UseRules": true,
-        "DynamicRules": [
-          {
-            "Id": "Buff",
-            "Inverted": false,
-            "Input": "stat:Mining"
-          },
-          {
-            "Id": "Buff",
-            "Inverted": false,
-            "Input": "stat:Magnetism"
-          }
-        ],
-        "Icon": {
-          "Type": "Texture",
-          "Source": "MouseCursors",
-          "Rect": {
-            "X": 30,
-            "Y": 428,
-            "Width": 10,
-            "Height": 10
-          },
-          "Scale": 1.0,
-          "Frames": 1
-        },
-        "Recipes": [],
-        "UnwantedRecipes": null,
-        "IncludeInMisc": false
-      },
-      {
-        "Id": "fishing",
-        "Name": "Fishing",
-        "I18nKey": "category.food.fishing",
-        "UseRules": true,
-        "DynamicRules": [
-          {
-            "Id": "Buff",
-            "Inverted": false,
-            "Input": "stat:Fishing"
-          }
-        ],
-        "Icon": {
-          "Type": "Texture",
-          "Source": "MouseCursors",
-          "Rect": {
-            "X": 20,
-            "Y": 428,
-            "Width": 10,
-            "Height": 10
-          },
-          "Scale": 1.0,
-          "Frames": 1
-        },
-        "Recipes": [],
-        "UnwantedRecipes": null,
-        "IncludeInMisc": false
-      },
-      {
-        "Id": "combat",
-        "Name": "Combat",
-        "I18nKey": "category.food.combat",
-        "UseRules": true,
-        "DynamicRules": [
-          {
-            "Id": "Buff",
-            "Inverted": false,
-            "Input": "stat:Attack"
-          },
-          {
-            "Id": "Buff",
-            "Inverted": false,
-            "Input": "stat:Defense"
-          },
-          {
-            "Id": "Buff",
-            "Inverted": false,
-            "Input": "23"
-          },
-          {
-            "Id": "Buff",
-            "Inverted": false,
-            "Input": "28"
-          }
-        ],
-        "Icon": {
-          "Type": "Texture",
-          "Source": "MouseCursors",
-          "Rect": {
-            "X": 120,
-            "Y": 428,
-            "Width": 10,
-            "Height": 10
-          },
-          "Scale": 1.0,
-          "Frames": 1
-        },
-        "Recipes": [
-          "Life Elixir",
-          "Muscle Remedy",
-          "Monster Musk"
-        ],
-        "UnwantedRecipes": null,
-        "IncludeInMisc": false
-      },
-      {
-        "Id": "other",
-        "Name": "Luck, Speed, and Others",
-        "I18nKey": "category.food.other",
-        "UseRules": true,
-        "DynamicRules": [
-          {
-            "Id": "Buff",
-            "Inverted": false,
-            "Input": "stat:Luck"
-          },
-          {
-            "Id": "Buff",
-            "Inverted": false,
-            "Input": "stat:Speed"
-          },
-          {
-            "Id": "Buff",
-            "Inverted": false,
-            "Input": "stat:MaxEnergy"
-          }
-        ],
-        "Icon": {
-          "Type": "Texture",
-          "Source": "MouseCursors",
-          "Rect": {
-            "X": 50,
-            "Y": 428,
-            "Width": 10,
-            "Height": 10
-          },
-          "Scale": 1.0,
-          "Frames": 1
-        },
-        "Recipes": [],
-        "UnwantedRecipes": null,
-        "IncludeInMisc": false
-      },
-      {
-        "Id": "miscellaneous",
-        "Name": "Miscellaneous",
-        "I18nKey": "category.misc",
-        "UseRules": false,
-        "DynamicRules": null,
-        "Icon": {
-          "Type": "Texture",
-          "Source": "MouseCursors",
-          "Rect": {
-            "X": 0,
-            "Y": 428,
-            "Width": 10,
-            "Height": 10
-          },
-          "Scale": 1.0,
-          "Frames": 1
-        },
-        "Recipes": [],
-        "UnwantedRecipes": null,
-        "IncludeInMisc": false
-      }
-    ],
+  "-3215625974937322161": {
+    "Cooking": null,
     "Crafting": [
       {
         "Id": "decoration",
@@ -404,6 +202,24 @@
         "Recipes": [
           "Staircase",
           "Explosive Ammo"
+        ],
+        "UnwantedRecipes": null,
+        "IncludeInMisc": false
+      },
+      {
+        "Id": "536e3e87-43dc-422f-8c44-8a1554d6b251",
+        "Name": "New Category",
+        "I18nKey": "",
+        "UseRules": true,
+        "DynamicRules": null,
+        "Icon": {
+          "Type": "Item",
+          "Scale": 1.0,
+          "Frames": 1
+        },
+        "Recipes": [
+          "Wood Fence",
+          "Deluxe Scarecrow"
         ],
         "UnwantedRecipes": null,
         "IncludeInMisc": false

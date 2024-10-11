@@ -1,0 +1,11 @@
+﻿{
+  "Name": "[AT]Song Ke' s Chinese Fish Tank And Lotus Tank",
+  "Author": "SongKe",
+  "Version": "1.0",
+  "Description": "Song Ke' s Chinese Fish Tank And Lotus Tank.",
+  "UniqueID": "SongKe.ChineseFishTankAndLotusTank",
+  "UpdateKeys": [28058],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures"
+  }
+}

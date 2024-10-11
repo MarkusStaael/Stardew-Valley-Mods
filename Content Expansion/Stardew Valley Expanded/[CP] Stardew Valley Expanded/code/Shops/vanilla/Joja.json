@@ -2,11 +2,13 @@
     "Changes": [
         {
             "Action": "Load",
+            "Priority": "Low",
             "Target": "Mods/FlashShifter.StardewValleyExpandedCP/Martin_Vendor",
             "FromFile": "assets/CharacterFiles/Shops/Joja/Martin_Vendor.png"
         },
         {
             "Action": "Load",
+            "Priority": "Low",
             "Target": "Mods/FlashShifter.StardewValleyExpandedCP/Claire_Vendor",
             "FromFile": "assets/CharacterFiles/Shops/Joja/Claire_Vendor.png"
         },
@@ -40,7 +42,6 @@
                 ],
                 "PriceModifierMode": "Stack",
                 "Owners": [
-
                     {
                         "Name": "Martin",
                         "Portrait": "Mods\\FlashShifter.StardewValleyExpandedCP\\Martin_Vendor",
@@ -242,6 +243,12 @@
                     },
                     //Spring Items
                     {
+                        "Id": "FlashShifter.StardewValleyExpandedCP_Cucumber_Seed",
+                        "ItemId": "FlashShifter.StardewValleyExpandedCP_Cucumber_Seed",
+                        "Condition": "SEASON Spring, !PLAYER_HAS_SEEN_EVENT Any 502261, !IS_PASSIVE_FESTIVAL_TODAY FlashShifter.StardewValleyExpandedCP_JojaDay",
+                        //"Price": "63"
+                    },
+                    {
                         "Id": "FlashShifter.StardewValleyExpandedCP_Parsnip_Seeds",
                         "ItemId": "(O)472",
                         "Condition": "SEASON Spring, !PLAYER_HAS_SEEN_EVENT Any 502261, !IS_PASSIVE_FESTIVAL_TODAY FlashShifter.StardewValleyExpandedCP_JojaDay",
@@ -277,6 +284,12 @@
                         "Condition": "SEASON Spring, !PLAYER_HAS_SEEN_EVENT Any 502261, !IS_PASSIVE_FESTIVAL_TODAY FlashShifter.StardewValleyExpandedCP_JojaDay",
                     },
                     //Summer
+                    {
+                        "Id": "FlashShifter.StardewValleyExpandedCP_Butternut_Squash_Seed",
+                        "ItemId": "FlashShifter.StardewValleyExpandedCP_Butternut_Squash_Seed",
+                        "Condition": "SEASON Summer, !PLAYER_HAS_SEEN_EVENT Any 502261, !IS_PASSIVE_FESTIVAL_TODAY FlashShifter.StardewValleyExpandedCP_JojaDay",
+                       // "Price": "54"
+                    },
                     {
                         "Id": "FlashShifter.StardewValleyExpandedCP_Melon_Seeds",
                         "ItemId": "(O)479",
@@ -326,8 +339,17 @@
                         "Id": "FlashShifter.StardewValleyExpandedCP_Sunflower_Seeds",
                         "ItemId": "(O)431",
                         "Condition": "SEASON Summer Fall, !PLAYER_HAS_SEEN_EVENT Any 502261, !IS_PASSIVE_FESTIVAL_TODAY FlashShifter.StardewValleyExpandedCP_JojaDay",
+                        "Price": 180,
+                        "IgnoreShopPriceModifiers": true
                     },
                     //Fall Seeds
+                    {
+                        "Id": "FlashShifter.StardewValleyExpandedCP_Sweet_Potato_Seed",
+                        "ItemId": "FlashShifter.StardewValleyExpandedCP_Sweet_Potato_Seed",
+                        "Condition": "SEASON Fall, !PLAYER_HAS_SEEN_EVENT Any 502261, !IS_PASSIVE_FESTIVAL_TODAY FlashShifter.StardewValleyExpandedCP_JojaDay",
+                        //81
+                    },
+ 
                     {
                         "Id": "FlashShifter.StardewValleyExpandedCP_Pumpkin_Seeds",
                         "ItemId": "(O)490",
@@ -371,6 +393,12 @@
                     //Year-round Seeds - Player completed joja warehouse
                     //Spring Items
                     {
+                        "Id": "FlashShifter.StardewValleyExpandedCP_Warehouse_Cucumber_Seed",
+                        "ItemId": "FlashShifter.StardewValleyExpandedCP_Cucumber_Seed",
+                        "Condition": "PLAYER_HAS_SEEN_EVENT Any 502261, !IS_PASSIVE_FESTIVAL_TODAY FlashShifter.StardewValleyExpandedCP_JojaDay",
+
+                    },
+                    {
                         "Id": "FlashShifter.StardewValleyExpandedCP_Warehouse_Parsnip_Seeds",
                         "ItemId": "(O)472",
                         "Condition": "PLAYER_HAS_SEEN_EVENT Any 502261, !IS_PASSIVE_FESTIVAL_TODAY FlashShifter.StardewValleyExpandedCP_JojaDay",
@@ -406,6 +434,12 @@
                         "Condition": "PLAYER_HAS_SEEN_EVENT Any 502261, !IS_PASSIVE_FESTIVAL_TODAY FlashShifter.StardewValleyExpandedCP_JojaDay",
                     },
                     //Summer
+                    {
+                        "Id": "FlashShifter.StardewValleyExpandedCP_Warehouse_Butternut_Squash_Seed",
+                        "ItemId": "FlashShifter.StardewValleyExpandedCP_Butternut_Squash_Seed",
+                        "Condition": "PLAYER_HAS_SEEN_EVENT Any 502261, !IS_PASSIVE_FESTIVAL_TODAY FlashShifter.StardewValleyExpandedCP_JojaDay",
+
+                    },
                     {
                         "Id": "FlashShifter.StardewValleyExpandedCP_Warehouse_Melon_Seeds",
                         "ItemId": "(O)479",
@@ -460,8 +494,17 @@
                         "Id": "FlashShifter.StardewValleyExpandedCP_Warehouse_Sunflower_Seeds",
                         "ItemId": "(O)431",
                         "Condition": "PLAYER_HAS_SEEN_EVENT Any 502261, !IS_PASSIVE_FESTIVAL_TODAY FlashShifter.StardewValleyExpandedCP_JojaDay",
+                        "IgnoreShopPriceModifiers": true,
+                        "Price": 180
                     },
                     //Fall Seeds
+                    {
+                        "Id": "FlashShifter.StardewValleyExpandedCP_Warehouse_Sweet_Potato_Seed",
+                        "ItemId": "FlashShifter.StardewValleyExpandedCP_Sweet_Potato_Seed",
+                        "Condition": "PLAYER_HAS_SEEN_EVENT Any 502261, !IS_PASSIVE_FESTIVAL_TODAY FlashShifter.StardewValleyExpandedCP_JojaDay",
+   
+                    },
+ 
                     {
                         "Id": "FlashShifter.StardewValleyExpandedCP_Warehouse_Pumpkin_Seeds",
                         "ItemId": "(O)490",
@@ -505,6 +548,12 @@
                     //JOJA DAY FESTIVAL
                     //Spring Items
                     {
+                        "Id": "FlashShifter.StardewValleyExpandedCP_JojaDay_Cucumber_Seed",
+                        "ItemId": "FlashShifter.StardewValleyExpandedCP_Cucumber_Seed",
+                        "Condition": "IS_PASSIVE_FESTIVAL_TODAY FlashShifter.StardewValleyExpandedCP_JojaDay"
+
+                    },
+                    {
                         "Id": "FlashShifter.StardewValleyExpandedCP_JojaDay_Parsnip_Seeds",
                         "ItemId": "(O)472",
                         // "Price": 15,
@@ -541,6 +590,12 @@
                         "Condition": "IS_PASSIVE_FESTIVAL_TODAY FlashShifter.StardewValleyExpandedCP_JojaDay"
                     },
                     //Summer
+                    {
+                        "Id": "FlashShifter.StardewValleyExpandedCP_JojaDay_Butternut_Squash_Seed",
+                        "ItemId": "FlashShifter.StardewValleyExpandedCP_Butternut_Squash_Seed",
+                        "Condition": "IS_PASSIVE_FESTIVAL_TODAY FlashShifter.StardewValleyExpandedCP_JojaDay"
+
+                    },
                     {
                         "Id": "FlashShifter.StardewValleyExpandedCP_JojaDay_Melon_Seeds",
                         "ItemId": "(O)479",
@@ -589,14 +644,21 @@
                     {
                         "Id": "FlashShifter.StardewValleyExpandedCP_JojaDay_Spangle_Seeds",
                         "ItemId": "(O)455",
-                        "Condition": "IS_PASSIVE_FESTIVAL_TODAY FlashShifter.StardewValleyExpandedCP_JojaDay"
+                        "Condition": "IS_PASSIVE_FESTIVAL_TODAY FlashShifter.StardewValleyExpandedCP_JojaDay",
                     },
                     {
                         "Id": "FlashShifter.StardewValleyExpandedCP_JojaDay_Sunflower_Seeds",
                         "ItemId": "(O)431",
-                        "Condition": "IS_PASSIVE_FESTIVAL_TODAY FlashShifter.StardewValleyExpandedCP_JojaDay"
+                        "Condition": "IS_PASSIVE_FESTIVAL_TODAY FlashShifter.StardewValleyExpandedCP_JojaDay",
+                        "IgnoreShopPriceModifiers": true,
+                        "Price": 180
                     },
                     //Fall Seeds
+                    {
+                        "Id": "FlashShifter.StardewValleyExpandedCP_JojaDay_Sweet_Potato_Seed",
+                        "ItemId": "FlashShifter.StardewValleyExpandedCP_Sweet_Potato_Seed",
+                        "Condition": "IS_PASSIVE_FESTIVAL_TODAY FlashShifter.StardewValleyExpandedCP_JojaDay"
+                    },
                     {
                         "Id": "FlashShifter.StardewValleyExpandedCP_JojaDay_Pumpkin_Seeds",
                         "ItemId": "(O)490",

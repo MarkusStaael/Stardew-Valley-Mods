@@ -1,7 +1,7 @@
 {
   "Changes": [
     {
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/schedules/CharlieChicken",
       "FromFile": "Assets/Blank.json"
     },
@@ -43,9 +43,9 @@
           "Calendar": "HiddenAlways",
           "SocialTab": "HiddenAlways",
           "CanSocialize": false,
-          "CanVisitIslandCondition": "FALSE",
+          "CanVisitIsland": "FALSE",
           "ExcludeFromIntroductionsQuest": true,
-          "ExcludeFromPerfectionScore": true,
+          "PerfectionScore": false,
           "EndSlideShow": "Hidden",
           "FriendsAndFamily": {},
           "UnlockConditions": null,
@@ -81,13 +81,13 @@
     },
     {
       //Charlie's sprites
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Characters/CharlieChicken",
       "FromFile": "Assets/CharacterFiles/OverworldSprites/Charlie/Charlie.png"
     },
     {
       //Charlie's portraits (fake. maybe i'll make one in the future.)
-      "Action": "Load",
+      "Action": "Load", "Priority": "Low",
       "Target": "Portraits/CharlieChicken",
       "FromFile": "Assets/CharacterFiles/Portraits/NoPortraits/Charlie.png"
     },

@@ -1,0 +1,12 @@
+{
+   "CollectiveNames": [
+      "Tree of the Winter Star",
+      "Exotic Tree",
+      "Deluxe Tree"
+  ],
+  "Type": "Furniture",
+  "TextureWidth": 48,
+  "TextureHeight": 80,
+  "Variations": 6,
+  "Keywords": [ "Bathroom"  ]
+}

@@ -1,0 +1,27 @@
+{
+   "CollectiveNames": [
+      "Artist Bookcase",
+      "Luxury Bookcase",
+      "Modern Bookcase",
+      "Dark Bookcase",
+      "GrayJojaBookcase",
+      "JojaBookcase",
+      "WizardBookcase",
+      "JunimoBookcase",
+      "RetroBookcase",
+      "Fancy House Plant",
+      "CatTree",
+      "DarkCatTree",
+      "Budget TV",
+      "Butterfly Hutch",
+      "Wumbus Statue",
+      "Bobo Statue",
+      "Retro TV",
+      "Radio Desk"
+  ],
+  "Type": "Furniture",
+  "TextureWidth": 32,
+  "TextureHeight": 48,
+  "Variations": 4,
+  "Keywords": [ "Bathroom" ] 
+}
