@@ -5,7 +5,7 @@
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [ "Concessions", "Owners", "AnyOrNone" ],
-			"Entries": {"Portrait": "Mods/DolphINaF.VendorPortraits/MovieConcessionCC_{{Concession}}"},
+			"Entries": {"Portrait": "Portraits/MovieConcessionCC_{{Concession}}"},
 			"When": {
 				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
 				"HasMod |contains=LemurKat.JulietHouse.NPC": false
@@ -44,7 +44,7 @@
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [ "Concessions", "Owners", "AnyOrNone" ],
-			"Entries": {"Portrait": "Mods/DolphINaF.VendorPortraits/MovieConcessionCC_Juliet"},
+			"Entries": {"Portrait": "Portraits/MovieConcessionCC_Juliet"},
 			"When": {"HasMod |contains=LemurKat.JulietHouse.NPC": true,}
 		},
 		{
@@ -52,7 +52,7 @@
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [ "Concessions", "Owners", "AnyOrNone" ],
-			"Entries": {"Portrait": "Mods/DolphINaF.VendorPortraits/MovieConcessionCC_Kevin"},
+			"Entries": {"Portrait": "Portraits/MovieConcessionCC_Kevin"},
 			"When": {			
 				"HasMod |contains=LemurKat.JulietHouse.NPC": true,	
 				"DayOfWeek": "Friday, Saturday, Sunday"
@@ -63,7 +63,7 @@
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [ "Concessions", "Owners", "AnyOrNone" ],
-			"Entries": {"Portrait": "Mods/DolphINaF.VendorPortraits/MovieConcessionCC_Kevin"},
+			"Entries": {"Portrait": "Portraits/MovieConcessionCC_Kevin"},
 			"When": {			
 				"HasMod |contains=LemurKat.JulietHouse.NPC": true,	
 				"DayOfWeek": "Tuesday, Thursday",
@@ -75,7 +75,7 @@
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [ "Concessions", "Owners", "AnyOrNone" ],
-			"Entries": {"Portrait": "Mods/DolphINaF.VendorPortraits/MovieConcessionCC_Kevin"},
+			"Entries": {"Portrait": "Portraits/MovieConcessionCC_Kevin"},
 			"When": {		
 				"HasMod |contains=LemurKat.JulietHouse.NPC": true,	
 				"Weather": "rain"

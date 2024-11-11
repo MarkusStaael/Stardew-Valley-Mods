@@ -1,0 +1,42 @@
+{
+  // Cornucopia Crops
+  "VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.CornucopiaCucumberCropName": "Picolino Cucumber",
+  "VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.CornucopiaCucumberSeedName": "Picolino Cucumber Starter",
+  "VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.CornucopiaSweetPotatoCropName": "Japanese Sweet Potato",
+  "VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.CornucopiaSweetPotatoSeedName": "Japanese Sweet Potato Seeds",
+
+  // Cornucopia Trees
+  "VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.CornucopiaNectarineFruitName": "Mayfire Nectarine",
+  "VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.CornucopiaNectarineSaplingName": "Mayfire Nectarine Sapling",
+  "VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.CornucopiaNectarineSaplingDescription": "Takes 28 days to produce a mature Mayfire Nectarine tree. Bears fruit in the summer. Only grows if the 8 surrounding \"tiles\" are empty.",
+  "VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.CornucopiaPearFruitName": "Anjou Pear",
+  "VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.CornucopiaPearSaplingName": "Anjou Pear Sapling",
+  "VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.CornucopiaPearSaplingDescription": "Takes 28 days to produce a mature Anjou Pear tree. Bears fruit in the winter. Only grows if the 8 surrounding \"tiles\" are empty.",
+  "VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.CornucopiaPersimmonFruitName": "Hachiya Persimmon",
+  "VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.CornucopiaPersimmonSaplingName": "Hachiya Persimmon Sapling",
+  "VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.CornucopiaPersimmonSaplingDescription": "Takes 28 days to produce a mature Hachiya Persimmon tree. Bears fruit in the winter. Only grows if the 8 surrounding \"tiles\" are empty.",
+
+  // SVE Crops
+  "VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.SVEButternutSquashCropName": "Spaghetti Squash",
+  "VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.SVEButternutSquashSeedName": "Spaghetti Squash Seeds",
+  "VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.SVECucumberCropName": "Bush Cucumber",
+  "VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.SVECucumberSeedName": "Bush Cucumber Seeds",
+  "VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.SVESweetPotatoCropName": "Jewel Sweet Potato",
+  "VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.SVESweetPotatoSeedName": "Jewel Sweet Potato Seeds",
+
+  // SVE Trees
+  "VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.SVENectarineFruitName": "Honey Halo Nectarine",
+  "VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.SVENectarineSaplingName": "Honey Halo Nectarine Sapling",
+  "VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.SVENectarineSaplingDescription": "Takes 28 days to produce a mature Honey Halo Nectarine tree. Bears fruit in the summer. Only grows if the 8 surrounding \"tiles\" are empty.",
+  "VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.SVEPearFruitName": "Green Jade Pear",
+  "VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.SVEPearSaplingName": "Green Jade Pear Sapling",
+  "VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.SVEPearSaplingDescription": "Takes 28 days to produce a mature Green Jade Pear tree. Bears fruit in the spring. Only grows if the 8 surrounding \"tiles\" are empty.",
+  "VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.SVEPersimmonFruitName": "Fuyu Persimmon",
+  "VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.SVEPersimmonSaplingName": "Fuyu Persimmon Sapling",
+  "VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.SVEPersimmonSaplingDescription": "Takes 28 days to produce a mature Fuyu Persimmon tree. Bears fruit in the fall. Only grows if the 8 surrounding \"tiles\" are empty.",
+
+  // SVE Crops
+  "VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.SVENectarineFruitBreadName": "Honey Halo Nectarine Fruit Bread",
+  "VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.SVEGlazedPearName": "Glazed Green Jade Pear",
+  "VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.SVEStuffedPersimmonName": "Stuffed Fuyu Persimmon",
+}

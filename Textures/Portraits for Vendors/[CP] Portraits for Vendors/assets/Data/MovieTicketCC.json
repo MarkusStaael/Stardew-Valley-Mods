@@ -5,7 +5,7 @@
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [ "BoxOffice", "Owners", "AnyOrNone" ],
-			"Entries": {"Portrait": "Mods/DolphINaF.VendorPortraits/MovieTicketCC_Default"},
+			"Entries": {"Portrait": "Portraits/MovieTicketCC_Default"},
 		},
 // VENDOR ROTATION	
 		{
@@ -13,7 +13,7 @@
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [ "BoxOffice", "Owners", "AnyOrNone" ],
-			"Entries": {"Portrait": "Mods/DolphINaF.VendorPortraits/MovieTicketCC_{{Ticket}}"},
+			"Entries": {"Portrait": "Portraits/MovieTicketCC_{{Ticket}}"},
 			"When": {
 				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
 				"HasMod |contains=LemurKat.JulietHouse.NPC": false
@@ -24,7 +24,7 @@
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [ "BoxOffice", "Owners", "AnyOrNone" ],
-			"Entries": {"Portrait": "Mods/DolphINaF.VendorPortraits/MovieTicketCC_Naufal"},
+			"Entries": {"Portrait": "Portraits/MovieTicketCC_Naufal"},
 			"When": {
 				"DayOfWeek": "Tuesday, Thursday, Saturday",
 			    "MovieShift": true,

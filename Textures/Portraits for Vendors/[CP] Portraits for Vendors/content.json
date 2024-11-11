@@ -1,5 +1,5 @@
 {
-	"Format":"2.0.0",
+	"Format":"2.3.0",
 
 	"DynamicTokens":[
 		{
@@ -50,7 +50,7 @@
 			"Name": "Ticket",
 			"Value": "Shift",
 			"When": {
-				"DayOfWeek": "Tuesday, Sunday",
+				"DayOfWeek": "Monday, Saturday",
 			    "MovieShift": true,
 			}	
 		},
@@ -58,7 +58,7 @@
 			"Name": "Ticket",
 			"Value": "Naufal",
 			"When": {
-				"DayOfWeek": "Thursday, Friday",
+				"DayOfWeek": "Tuesday, Thursday",
 			    "MovieShift": true,
 			}	
 		},
@@ -70,7 +70,7 @@
 			"Name": "Concession",
 			"Value": "Naufal",
 			"When": {
-				"DayOfWeek": "Wednesday, Sunday",
+				"DayOfWeek": "Monday, Wednesday",
 			    "MovieShift": true,
 			}	
 		},
@@ -78,7 +78,7 @@
 			"Name": "Concession",
 			"Value": "Daena",
 			"When": {
-				"DayOfWeek": "Tuesday, Friday",
+				"DayOfWeek": "Thursday, Saturday",
 			    "MovieShift": true,
 			}	
 		},
@@ -90,7 +90,7 @@
 			"Name": "Clerk",
 			"Value": "Naufal",
 			"When": {
-				"DayOfWeek": "Tuesday, Saturday",
+				"DayOfWeek": "Saturday, Sunday",
 				"JojaShift": true
 			}	
 		},
@@ -98,7 +98,7 @@
 			"Name": "Clerk",
 			"Value": "Daena",
 			"When": {
-				"DayOfWeek": "Thursday, Sunday",
+				"DayOfWeek": "Monday, Tuesday",
 				"JojaShift": true,
 			}	
 		},
@@ -106,7 +106,7 @@
 			"Name": "Clerk",
 			"Value": "Naufal",
 			"When": {
-				"DayOfWeek": "Thursday, Sunday",
+				"DayOfWeek": "Monday, Tuesday",
 				"JojaShift": true,
                 "MovieShift": false,
 				"MovieTicket": true,
@@ -158,6 +158,11 @@
 					"Default": true,
 				},
 			"Bookseller":
+				{
+					"AllowValues": "true, false",
+					"Default": true,
+				},
+			"Crow":
 				{
 					"AllowValues": "true, false",
 					"Default": true,
@@ -301,13 +306,20 @@
 // DEFAULT VENDOR SETUP
 		{
 			"Action": "Load",
-			"Target": "Mods/DolphINaF.VendorPortraits/Bookseller_Default, Mods/DolphINaF.VendorPortraits/Casino_Default, Mods/DolphINaF.VendorPortraits/Casino_Bouncer, Mods/DolphINaF.VendorPortraits/Casino_Green, Mods/DolphINaF.VendorPortraits/DecorBoat_Default, Mods/DolphINaF.VendorPortraits/DecorBoat_Cat, Mods/DolphINaF.VendorPortraits/DecorBoat_CatNoHat, Mods/DolphINaF.VendorPortraits/DesertTrader_Default, Mods/DolphINaF.VendorPortraits/DesertTrader_Hippie, Mods/DolphINaF.VendorPortraits/DesertTrader_RacerGuy, Mods/DolphINaF.VendorPortraits/DesertTrader_Scholar, Mods/DolphINaF.VendorPortraits/EggShop_Default, Mods/DolphINaF.VendorPortraits/HatMouse_Default, Mods/DolphINaF.VendorPortraits/HatMouse_Beanie, Mods/DolphINaF.VendorPortraits/HatMouse_Bow, Mods/DolphINaF.VendorPortraits/HatMouse_Dipper, Mods/DolphINaF.VendorPortraits/HatMouse_Flower, Mods/DolphINaF.VendorPortraits/HatMouse_Goggles, Mods/DolphINaF.VendorPortraits/HatMouse_Hamster, Mods/DolphINaF.VendorPortraits/HatMouse_Headband, Mods/DolphINaF.VendorPortraits/HatMouse_Link, Mods/DolphINaF.VendorPortraits/HatMouse_Marlon, Mods/DolphINaF.VendorPortraits/HatMouse_Post, Mods/DolphINaF.VendorPortraits/HatMouse_Red, Mods/DolphINaF.VendorPortraits/HatMouse_Sailor, Mods/DolphINaF.VendorPortraits/HatMouse_Strawhat, Mods/DolphINaF.VendorPortraits/HatMouse_Wizard, Mods/DolphINaF.VendorPortraits/IslandTrader_Default, Mods/DolphINaF.VendorPortraits/IslandTrader_Red, Mods/DolphINaF.VendorPortraits/IslandTrader_Green, Mods/DolphINaF.VendorPortraits/JojaCashier_Default, Mods/DolphINaF.VendorPortraits/JojaCashier_Daena, Mods/DolphINaF.VendorPortraits/JojaCashier_Jessie, Mods/DolphINaF.VendorPortraits/JojaCashier_Naufal, Mods/DolphINaF.VendorPortraits/JojaCashier_Shane, Mods/DolphINaF.VendorPortraits/MagicBoat_Default, Mods/DolphINaF.VendorPortraits/MovieConcessionCC_Default, Mods/DolphINaF.VendorPortraits/MovieConcessionCC_Daena, Mods/DolphINaF.VendorPortraits/MovieConcessionCC_Juliet, Mods/DolphINaF.VendorPortraits/MovieConcessionCC_Kevin, Mods/DolphINaF.VendorPortraits/MovieConcessionCC_Naufal, Mods/DolphINaF.VendorPortraits/MovieConcessionJoja_Default, Mods/DolphINaF.VendorPortraits/MovieConcessionJoja_Daena, Mods/DolphINaF.VendorPortraits/MovieConcessionJoja_Naufal, Mods/DolphINaF.VendorPortraits/MovieTicketCC_Default, Mods/DolphINaF.VendorPortraits/MovieTicketCC_Naufal, Mods/DolphINaF.VendorPortraits/MovieTicketCC_Shift, Mods/DolphINaF.VendorPortraits/MovieTicketJoja_Default, Mods/DolphINaF.VendorPortraits/MovieTicketJoja_Naufal, Mods/DolphINaF.VendorPortraits/MovieTicketJoja_Shift, Mods/DolphINaF.VendorPortraits/Raccoon_Default, Mods/DolphINaF.VendorPortraits/StarToken_Default, Mods/DolphINaF.VendorPortraits/Traveler_Default, Mods/DolphINaF.VendorPortraits/TravelerDesert_Default, Mods/DolphINaF.VendorPortraits/TravelerIce_Default, Mods/DolphINaF.VendorPortraits/VolcanoDwarf_Default",
+			"Target": "Portraits/Bookseller_Default, Portraits/Casino_Default, Portraits/Casino_Bouncer, Portraits/Casino_Green, Portraits/Crow_Default, Portraits/DecorBoat_Default, Portraits/DecorBoat_Cat, Portraits/DecorBoat_CatNoHat, Portraits/DesertTrader_Default, Portraits/DesertTrader_Hippie, Portraits/DesertTrader_RacerGuy, Portraits/DesertTrader_Scholar, Portraits/EggShop_Default, Portraits/HatMouse_Default, Portraits/HatMouse_Beanie, Portraits/HatMouse_Bow, Portraits/HatMouse_Dipper, Portraits/HatMouse_Flower, Portraits/HatMouse_Goggles, Portraits/HatMouse_Hamster, Portraits/HatMouse_Headband, Portraits/HatMouse_Link, Portraits/HatMouse_Marlon, Portraits/HatMouse_Post, Portraits/HatMouse_Red, Portraits/HatMouse_Sailor, Portraits/HatMouse_Strawhat, Portraits/HatMouse_Wizard, Portraits/IslandTrader_Default, Portraits/IslandTrader_Red, Portraits/IslandTrader_Green, Portraits/JojaCashier_Default, Portraits/JojaCashier_Daena, Portraits/JojaCashier_Jessie, Portraits/JojaCashier_Naufal, Portraits/MagicBoat_Default, Portraits/MovieConcessionCC_Default, Portraits/MovieConcessionCC_Daena, Portraits/MovieConcessionCC_Juliet, Portraits/MovieConcessionCC_Kevin, Portraits/MovieConcessionCC_Naufal, Portraits/MovieConcessionJoja_Default, Portraits/MovieConcessionJoja_Daena, Portraits/MovieConcessionJoja_Naufal, Portraits/MovieTicketCC_Default, Portraits/MovieTicketCC_Naufal, Portraits/MovieTicketCC_Shift, Portraits/MovieTicketJoja_Default, Portraits/MovieTicketJoja_Naufal, Portraits/MovieTicketJoja_Shift, Portraits/Raccoon_Default, Portraits/StarToken_Default, Portraits/Traveler_Default, Portraits/TravelerDesert_Default, Portraits/TravelerIce_Default, Portraits/VolcanoDwarf_Default",
 			"FromFile": "assets/Portraits/{{TargetWithoutPath}}.png",
+			"Priority": "Low",
 		},
 		{
 			"Action": "Load",
 			"Target": "Portraits/Mariner",
 			"FromFile": "assets/Portraits/OldMariner_Default.png",
+			"Priority": "Low"
+		},
+		{
+			"Action": "Load",
+			"Target": "DolphINaF.VendorPortraits/CrowFrame",
+			"FromFile": "assets/LooseSprites/CrowFrame.png",
 			"Priority": "Low"
 		},
 		{
@@ -337,6 +349,11 @@
 		},
 		{
 			"Action": "Include",
+			"FromFile": "assets/Data/Crow.json",
+			"When": {"Crow": true}
+		},
+		{
+			"Action": "Include",
 			"FromFile": "assets/Data/Raccoon.json",
 			"When": {"Raccoon": true}
 		},
@@ -358,10 +375,7 @@
 		{
 			"Action": "Include",
 			"FromFile": "assets/Data/JojaCashier.json",
-			"When": {
-				"JojaCashier": true,
-				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false			
-			},
+			"When": {"JojaCashier": true}
 		},
 		{
 			"Action": "Include",
@@ -427,16 +441,28 @@
 			"LogName": "Clinic",
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": [ "Hospital", "Owners", "Any" ],
+			"TargetField": [ "Hospital" ],
 			"Entries": {
-			    "Dialogues": [
-					{
-						"Id": "Default",
-						"Condition": null,
-						"Dialogue": "{{i18n:Clinic}}",
-						"RandomDialogue": null
-					}
-				],
+                "Owners": [
+                    {
+                        "Name": "Harvey",
+                        "Dialogues": [
+                            {
+                                "Id": "Default",
+                                "Dialogue": "{{i18n:HarveyClinic}}",
+                            },
+                        ]
+                    },
+                    {
+                        "Name": "Maru",
+                        "Dialogues": [
+                            {
+                                "Id": "Default",
+                                "Dialogue": "{{i18n:MaruClinic}}",
+                            },
+                        ]
+                    },
+                ],
 			},
 		},
 		{
@@ -445,6 +471,7 @@
 			"Target": "Data/Shops",
 			"TargetField": [ "IceCreamStand", "Owners", "Default" ],
 			"Entries": {
+				"Name": "Alex",
 			    "Dialogues": [
 					{
 						"Id": "Default",
@@ -453,7 +480,6 @@
 						"RandomDialogue": null
 					}
 				],
-				"Name": "Alex"
 			},
 		},
 	],

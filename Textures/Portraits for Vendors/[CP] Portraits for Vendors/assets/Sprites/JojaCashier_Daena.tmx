@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="1" height="4" tilewidth="16" tileheight="16" infinite="0" nextlayerid="15" nextobjectid="7">
+ <tileset firstgid="1" name="JojaCashier_Daena" tilewidth="16" tileheight="16" tilecount="4" columns="2">
+  <image source="JojaCashier_Daena.png" width="32" height="32"/>
+  <tile id="0">
+   <animation>
+    <frame tileid="0" duration="1000"/>
+    <frame tileid="0" duration="1000"/>
+    <frame tileid="1" duration="1000"/>
+    <frame tileid="0" duration="1000"/>
+    <frame tileid="0" duration="1000"/>
+    <frame tileid="0" duration="1000"/>
+    <frame tileid="0" duration="1000"/>
+    <frame tileid="1" duration="1000"/>
+    <frame tileid="1" duration="1000"/>
+    <frame tileid="1" duration="1000"/>
+    <frame tileid="0" duration="1000"/>
+    <frame tileid="0" duration="1000"/>
+    <frame tileid="0" duration="1000"/>
+    <frame tileid="0" duration="1000"/>
+   </animation>
+  </tile>
+  <tile id="2">
+   <animation>
+    <frame tileid="2" duration="1000"/>
+    <frame tileid="2" duration="1000"/>
+    <frame tileid="3" duration="1000"/>
+    <frame tileid="2" duration="1000"/>
+    <frame tileid="2" duration="1000"/>
+    <frame tileid="2" duration="1000"/>
+    <frame tileid="2" duration="1000"/>
+    <frame tileid="3" duration="1000"/>
+    <frame tileid="3" duration="1000"/>
+    <frame tileid="3" duration="1000"/>
+    <frame tileid="2" duration="1000"/>
+    <frame tileid="2" duration="1000"/>
+    <frame tileid="2" duration="1000"/>
+    <frame tileid="2" duration="1000"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="5" name="JojaCashier_Lamp" tilewidth="16" tileheight="16" tilecount="1" columns="1">
+  <image source="JojaCashier_Lamp.png" width="16" height="16"/>
+ </tileset>
+ <layer id="13" name="Buildings" width="1" height="4">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAAZiAGAAAcAAQ=
+  </data>
+ </layer>
+ <objectgroup id="14" name="Buildings"/>
+ <layer id="5" name="Front" width="1" height="4">
+  <data encoding="base64" compression="zlib">
+   eJxjZYAARigNAABoAAc=
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+</map>

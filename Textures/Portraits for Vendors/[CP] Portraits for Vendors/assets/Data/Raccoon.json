@@ -6,7 +6,7 @@
 			"Target": "Data/Shops",
 			"TargetField": [ "Raccoon", "Owners", "AnyOrNone" ],
 			"Entries": {
-				"Portrait": "Mods/DolphINaF.VendorPortraits/Raccoon_Default",
+				"Portrait": "Portraits/Raccoon_Default",
 				"Dialogues":  [
 					{
 						"Id": "Default",

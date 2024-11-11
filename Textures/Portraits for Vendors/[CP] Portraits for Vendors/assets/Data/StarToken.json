@@ -6,7 +6,7 @@
 			"Target": "Data/Shops",
 			"TargetField": [ "Festival_StardewValleyFair_StarTokens", "Owners", "AnyOrNone" ],
 			"Entries": {
-				"Portrait": "Mods/DolphINaF.VendorPortraits/StarToken_Default",	
+				"Portrait": "Portraits/StarToken_Default",	
 			    "Dialogues": [
 					{
 						"Id": "Default",

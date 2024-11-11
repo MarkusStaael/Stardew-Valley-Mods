@@ -5,8 +5,7 @@
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [ "HatMouse", "Owners", "AnyOrNone" ],
-			"Entries": {"Portrait": "Mods/DolphINaF.VendorPortraits/HatMouse_{{MouseFriends}}"},
-			"When": {"HasValue:{{MouseFriends}}": true}
+			"Entries": {"Portrait": "Portraits/HatMouse_{{MouseFriends}}"},
 		},
 		{
 			"LogName": "Mouse Friends Dialogue",

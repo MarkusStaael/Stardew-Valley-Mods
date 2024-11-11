@@ -1,7 +1,8 @@
 {
 
-// 1.6.0 update Lines for Hat Mouse and Friends. The Hamster is a reference to Bijou from Hamtaro. She is from France in the English version (and apparently from Russia in the French version)
+// 1.6.0 update Lines for Hat Mouse and Friends. Everyone besides Wizard and Hamster speak in rather broken language. 
   "HatMouse.Beanie": "나 모자 많이 있어. 오케이, 친구?",
+//The Hamster is a reference to Bijou from Hamtaro. She is from France in the English version (and apparently from Russia in the French version)
   "HatMouse.Hamster": "안녕하세요! 예쁜 모자를 찾고 계신가요, 아... 친구!",
   "HatMouse.Bow": "리본 원해? 머리에 리본? 아니면 모자에 리본?",
   "HatMouse.Dipper": "미스터리 해결하고, 모자 팔고, 하루 일.",
@@ -9,11 +10,14 @@
   "HatMouse.Goggles": "모든 영웅은 고글 필요해, 친구!",
   "HatMouse.Headband": "머리띠 원해? 헤헤, 안 팔아, 친구!", 
   "HatMouse.Link": "(생동감 있는 제스처를 취하다)",
+//Mouse Marlon's line is a reference to the real Marlon's own shop line in the Adventurer's Guild
   "HatMouse.Marlon": "모자  하나 새로 장만할 생각 있어, 친구?",
   "HatMouse.Post": "오늘 우편 없어, 그래서 모자 팔아, 친구.", 
   "HatMouse.Red": "(조용히 당신을 응시하다)",
   "HatMouse.Sailor": "어제 항해, 오늘 모자 팔고, 내일은 아마 낚시.",
+//Strawhat Mouse's line is a reference to Luffy from One Piece's catchphrase "I'm gonna be King of the Pirates"
   "HatMouse.Strawhat": "모자 사, 친구! 나 모자의 왕 될 거야!",
+//This is a reference to the Wizard's introduction. The name is a Rasmodeus+Mouse wordplay
   "HatMouse.Wizard": "나는 라스모쥐우스... 불가사의한 진실을 찾는 자.", 
   
 // Lines for the Casino Vendor, highly disapproving of the farmer being there
@@ -41,12 +45,25 @@
   "Raccoon1": "우리는 씨앗을 가지고 있어요, 보보.",
   "Raccoon2": "씨앗을 원하나요, 보보?",
   "Raccoon3": "아마 당신은 이 씨앗을 가지고 있지 않을 거예요.",
+  
+// 1.7.0 update Lines for the Crow. Just crow sounds.
+  "Crow1": "까악, 까악!",
+  "Crow2": "까악… 까아!",
+  "Crow3": "까아악!",
+  "Crow4": "까악, 까악, 까악!",  
+  "Crow5": "까아아…",
 
 // Lines for the Joja Cashiers, friendly but canned. "Join us and thrive" is a reference to JojaMart's "Join Us. Thrive" slogan so the awkwardness is intentional,
   "JojaCashier1": "조자마트에 오신 것을 환영합니다! 오늘 기분은 어떠세요?",
   "JojaCashier2": "조자마트 회원이시라면 더 많은 할인을 받을 수 있어요!",
   "JojaCashier3": "우리와 함께하고 특별한 상품들을 위한 우리의 특별한 제안에 동참하세요!",
   "JojaCashier4": "오늘 좋은 하루를 보내고 계시길 바랍니다. 다른 무엇을 도와드릴까요?",
+
+// 1.7.0 update Special lines for various Cashier NPCs
+  "JojaCashier_Juliet": "필수품은 다 있지… C 구역엔 좀 수상한 것도 있어.",
+  "JojaCashier_JulietJoja": "행운이네! 오늘은 조자데이, 씨앗 전부 20% 할인이야.",
+  "JojaCashier_Jessie": "만나서 반가워요, 필요하면 언제든지 도와드릴게요.",
+  "JojaCashier_Shane": "뭐 필요한 거 있어?",
 
 // Line for the Star Token Exchanger at the Stardew Valley Fair
   "StarToken": "여기요! 스타듀 밸리 품평회에서 제공하는 최고의 전리품을 얻기 위해 스타 토큰을 교환하세요!",
@@ -73,8 +90,9 @@
   "PierreLuau": "{{FarmName}} 농장을 마을의 화제로 만들어 줄 이국적인 장식품들! 구할 수 있는 동안 가져가세요!",
   "PierreSpirit": "가장 무서운 헛간을 만들기 위한 소름 끼치는 장식품들! 사라지기 전에 가져가세요!",
 
-// Line for the clinic, made generic because it could be spoken by either Harvey or Maru.
-  "Clinic": "건강과 에너지 토닉을 여러 가지 준비해두었습니다.",
+// 1.7.0 Update Lines for the clinic.
+  "MaruClinic": "이거 한 모금만 마셔도 금방 다시 힘이 날 거예요.",
+  "HarveyClinic": "아, 어서 오세요! 스스로 건강을 챙기고 계셔서 보기 좋네요.",
 
 // Alex  
   "AlexIceCream": "이런 더운 날에 시원한 아이스크림은 어때요?",
@@ -89,11 +107,12 @@
   "MarinerBuyNoAnswer": "사랑은 서두를 수 없어. 때가 올 때까지 기다리게. 그때면 너도 알게 될 거야.",
 
 // Descriptions for Generic Mod Config Menu
-  "config.HatMouse.name": "모자생쥐",
-  "config.HatMouse.description": "잉걸불 수액 숲에서 모자생쥐의 초상화를 활성화합니다.",
-
   "config.Raccoon.name": "너구리",
   "config.Raccoon.description": "잉걸불 수액 숲에서 해금 가능한 너구리 상인의 초상화를 활성화합니다.",
+  
+//1.7.0 update  
+  "config.Crow.name": "까마귀",
+  "config.Crow.description": "비밀의 숲에서 잃어버린 아이템의 까마귀 상인의 초상화를 활성화합니다.",
 
   "config.Traveler.name": "여행하는 상인",
   "config.Traveler.description": "잉걸불 수액 숲에서 금요일과 일요일에 나타나는 여행하는 상인의 초상화를 활성화합니다.",
@@ -143,11 +162,10 @@
   "config.section.JojaMart.name": "조자마트의 계산원",
   
   "config.JojaCashier.name": "초상화 활성화", 
-  "config.JojaCashier.description": "SVE를 사용하는 경우 항상 비활성화됩니다.",
 
 //1.6.0 update  
   "config.JojaShift.name": "근무 교대 설정",
-  "config.JojaShift.description": "캐셔가 매일 교대합니다. SVE를 사용하는 경우 항상 비활성화됩니다.",
+  "config.JojaShift.description": "캐셔가 매일 교대합니다.",
   
   "config.section.Theater.name": "극장 스태프",
   

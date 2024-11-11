@@ -5,14 +5,14 @@
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [ "Traveler", "Owners", "AnyOrNone" ],
-			"Entries": {"Portrait": "Mods/DolphINaF.VendorPortraits/Traveler_Default"},
+			"Entries": {"Portrait": "Portraits/Traveler_Default"},
 		},
 		{
 			"LogName": "Traveling Merchant at Desert Festival",
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [ "Traveler", "Owners", "AnyOrNone" ],
-			"Entries": {"Portrait": "Mods/DolphINaF.VendorPortraits/TravelerDesert_Default"},
+			"Entries": {"Portrait": "Portraits/TravelerDesert_Default"},
 			"When": {
 				"Season": "Spring, Fall",
 				"Day": "8, 9, 10, 15, 16, 17"
@@ -24,7 +24,7 @@
 			"Target": "Data/Shops",
 			"TargetField": [ "Festival_FestivalOfIce_TravelingMerchant", "Owners", "AnyOrNone" ],
 			"Entries": {
-				"Portrait": "Mods/DolphINaF.VendorPortraits/TravelerIce_Default",
+				"Portrait": "Portraits/TravelerIce_Default",
 			    "Dialogues": [
 					{
 						"Id": "Default",

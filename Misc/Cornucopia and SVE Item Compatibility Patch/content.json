@@ -1,0 +1,146 @@
+{
+  "Format": "2.3.0",
+  "Changes": [
+  // renaming objects & descriptions
+  {
+    "Action": "EditData",
+    "Target": "Data/Objects",
+    "Priority": "Late + 10",
+    "Fields": {
+      // Cornucopia Crops
+      "Cornucopia_Cucumber": {
+        "DisplayName": "{{i18n:VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.CornucopiaCucumberCropName}}",
+      },
+      "Cornucopia_CucumberSeeds": {
+        "DisplayName": "{{i18n:VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.CornucopiaCucumberSeedName}}",
+      },
+      "Cornucopia_SweetPotato": {
+        "DisplayName": "{{i18n:VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.CornucopiaSweetPotatoCropName}}",
+      },
+      "Cornucopia_SweetPotatoSeeds": {
+        "DisplayName": "{{i18n:VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.CornucopiaSweetPotatoSeedName}}",
+      },
+
+      // Cornucopia Trees
+      "Cornucopia_Nectarine": {
+        "DisplayName": "{{i18n:VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.CornucopiaNectarineFruitName}}",
+      },
+      "Cornucopia_NectarineSapling": {
+        "DisplayName": "{{i18n:VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.CornucopiaNectarineSaplingName}}",
+        "Description": "{{i18n:VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.CornucopiaNectarineSaplingDescription}}",
+      },
+      "Cornucopia_Pear": {
+        "DisplayName": "{{i18n:VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.CornucopiaPearFruitName}}",
+      },
+      "Cornucopia_PearSapling": {
+        "DisplayName": "{{i18n:VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.CornucopiaPearSaplingName}}",
+        "Description": "{{i18n:VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.CornucopiaPearSaplingDescription}}",
+      },
+      "Cornucopia_Persimmon": {
+        "DisplayName": "{{i18n:VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.CornucopiaPersimmonFruitName}}",
+      },
+      "Cornucopia_PersimmonSapling": {
+        "DisplayName": "{{i18n:VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.CornucopiaPersimmonSaplingName}}",
+        "Description": "{{i18n:VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.CornucopiaPersimmonSaplingDescription}}",
+      },
+
+      // SVE Crops
+      "FlashShifter.StardewValleyExpandedCP_Butternut_Squash": {
+        "DisplayName": "{{i18n:VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.SVEButternutSquashCropName}}",
+      },
+      "FlashShifter.StardewValleyExpandedCP_Butternut_Squash_Seed": {
+        "DisplayName": "{{i18n:VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.SVEButternutSquashSeedName}}",
+      },
+      "FlashShifter.StardewValleyExpandedCP_Cucumber": {
+        "DisplayName": "{{i18n:VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.SVECucumberCropName}}",
+      },
+      "FlashShifter.StardewValleyExpandedCP_Cucumber_Seed": {
+        "DisplayName": "{{i18n:VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.SVECucumberSeedName}}",
+      },
+      "FlashShifter.StardewValleyExpandedCP_Sweet_Potato": {
+        "DisplayName": "{{i18n:VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.SVESweetPotatoCropName}}",
+      },
+      "FlashShifter.StardewValleyExpandedCP_Sweet_Potato_Seed": {
+        "DisplayName": "{{i18n:VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.SVESweetPotatoSeedName}}",
+      },
+
+      // SVE Trees
+      "FlashShifter.StardewValleyExpandedCP_Nectarine": {
+        "DisplayName": "{{i18n:VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.SVENectarineFruitName}}",
+      },
+      "FlashShifter.StardewValleyExpandedCP_Nectarine_Sapling": {
+        "DisplayName": "{{i18n:VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.SVENectarineSaplingName}}",
+        "Description": "{{i18n:VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.SVENectarineSaplingDescription}}",
+      },
+      "FlashShifter.StardewValleyExpandedCP_Pear": {
+        "DisplayName": "{{i18n:VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.SVEPearFruitName}}",
+      },
+      "FlashShifter.StardewValleyExpandedCP_Pear_Sapling": {
+        "DisplayName": "{{i18n:VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.SVEPearSaplingName}}",
+        "Description": "{{i18n:VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.SVEPearSaplingDescription}}",
+      },
+      "FlashShifter.StardewValleyExpandedCP_Persimmon": {
+        "DisplayName": "{{i18n:VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.SVEPersimmonFruitName}}",
+      },
+      "FlashShifter.StardewValleyExpandedCP_Persimmon_Sapling": {
+        "DisplayName": "{{i18n:VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.SVEPersimmonSaplingName}}",
+        "Description": "{{i18n:VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.SVEPersimmonSaplingDescription}}",
+      },
+
+      // SVE Cooked Items
+      "FlashShifter.StardewValleyExpandedCP_Nectarine_Fruit_Bread": {
+        "DisplayName": "{{i18n:VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.SVENectarineFruitBreadName}}",
+      },
+      "FlashShifter.StardewValleyExpandedCP_Glazed_Pear": {
+        "DisplayName": "{{i18n:VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.SVEGlazedPearName}}",
+      },
+      "FlashShifter.StardewValleyExpandedCP_Stuffed_Persimmon": {
+        "DisplayName": "{{i18n:VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.SVEStuffedPersimmonName}}",
+      },
+    },
+  },
+
+  // machine output rules
+  {
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "TargetField": [ "(BC)15", "OutputRules" ],
+    "Priority": "Late + 10",
+    "Entries": {
+      "VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.SVEPickleSpears": {
+        "Id": "VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.SVEPickleSpears",
+        "Triggers": [{
+          "RequiredItemId": "FlashShifter.StardewValleyExpandedCP_Cucumber",
+        }],
+        "OutputItem": [{
+          "ItemId": "(O)Cornucopia_PickleSpears",
+         }],
+        "MinutesUntilReady": 4000,
+        "InvalidCountMessage": "{{i18n: PreservesJarInvalidCount_Pickles}}"
+      },      
+    },
+    "MoveEntries": [
+      { "Id": "VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.SVEPickleSpears", "BeforeId": "Default_Pickled" },
+    ]
+  },
+  {
+    "Action": "EditData",
+    "Target": "Data/Machines",
+    "TargetField": [ "(BC)Cornucopia_Extruder", "OutputRules" ],
+    "Priority": "Late + 10",
+    "Entries": {
+      "VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.SVEGlassNoodles": {
+        "Id": "VegasOctober.CornucopiaAndSVEItemCompatibilityPatch.SVEGlassNoodles",
+        "Triggers": [{
+          "RequiredItemId": "(O)FlashShifter.StardewValleyExpandedCP_Sweet_Potato",
+        }],
+        "OutputItem": [{
+          "ItemId": "(O)Cornucopia_GlassNoodles",
+          "IncrementMachineParentSheetIndex": 1,
+        }],
+        "MinutesUntilReady": 460
+      },
+    },
+  },
+],
+}

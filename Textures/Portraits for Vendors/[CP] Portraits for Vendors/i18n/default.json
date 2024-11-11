@@ -1,19 +1,23 @@
 {
   
-// 1.6.0 update Lines for Hat Mouse and Friends. The Hamster is a reference to Bijou from Hamtaro. She is from France in the English version (and apparently from Russia in the French version)
+// 1.6.0 update Lines for Hat Mouse and Friends. Everyone besides Wizard and Hamster speak in rather broken language. 
   "HatMouse.Beanie": "Me got hat for every head. Okay, poke?",
+//The Hamster is a reference to Bijou from Hamtaro. She is from France in the English version (and apparently from Russia in the French version)
   "HatMouse.Hamster": "Bonjour! Looking for a chic hat today? Um... poke?",
   "HatMouse.Bow": "You want bow? Bow for hair? Maybe bow on hat?",
   "HatMouse.Dipper": "Solve mysteries, sell hats, all in day's poke.",
   "HatMouse.Flower": "Make you look pretty with right hat, poke!",
   "HatMouse.Goggles": "All hero need goggles, poke!",
   "HatMouse.Headband": "Want headband? Heh, not for sale, poke!",
-  "HatMouse.Link": "*makes animated gestures*",
+  "HatMouse.Link": "-makes animated gestures-",
+//Mouse Marlon's line is a reference to the real Marlon's own shop line in the Adventurer's Guild
   "HatMouse.Marlon": "In market for new hat, poke?",
   "HatMouse.Post": "No mail today so me sell hats, poke.",
-  "HatMouse.Red": "*silently stares at you*",
+  "HatMouse.Red": "-silently stares at you-",
   "HatMouse.Sailor": "Yesterday sail, today sell hats, tomorrow maybe fish.",
-  "HatMouse.Strawhat": "Buy hats, poke! Me gonna be King of Hats!",
+//Strawhat Mouse's line is a reference to Luffy from One Piece's catchphrase "I'm gonna be King of the Pirates"
+  "HatMouse.Strawhat": "Buy hats, poke! Me gunna be King of the Hats!",
+//This is a reference to the Wizard's introduction. The name is a Rasmodeus+Mouse wordplay
   "HatMouse.Wizard": "I am Rasmouseus… Seeker of the arcane truths.", 
 
 // Lines for the Casino Vendor, highly disapproving of the farmer being there
@@ -32,7 +36,7 @@
   "CasinoVendor1.Green": "Welcome to Qi's Quintessential Quirks. We're still workshopping the name.",
   "CasinoVendor2.Green": "Hope you're enjoying your time at the casino.",
   "CasinoVendor3.Green": "The boss is quite happy to get a new playth-- valued customer.",
-  "CasinoVendor4.Green": "Just exchange your Qi Coins here. Where else would you spend them?",
+  "CasinoVendor4.Green": "Just trade your Qi Coins here. Where else would you spend them?",
   
 // Line for the Traveling Merchant during Festival of Ice
   "TravelerIce": "Ah, the perfect backdrop for some of my rarest finds! Today only, friend.",
@@ -40,13 +44,26 @@
 // Lines for the Raccoon. "Bobo" is what she calls you.
   "Raccoon1": "We have seeds, bobo.",
   "Raccoon2": "Want some seeds, bobo?",
-  "Raccoon3": "You don't have these seeds, maybe.",  
+  "Raccoon3": "You don't have these seeds, maybe.",
+  
+// 1.7.0 update Lines for the Crow. Just crow sounds.
+  "Crow1": "Caw-caw!",
+  "Crow2": "Crrrk... caw!",
+  "Crow3": "Caawww!",
+  "Crow4": "Caw-caw-caw!",  
+  "Crow5": "Crawwk...",
   
 // Lines for the Joja Cashiers, friendly but canned. "Join us and thrive" is a reference to JojaMart's "Join Us. Thrive" slogan so the awkwardness is intentional,
   "JojaCashier1": "Welcome to JojaMart! How are you today?",
   "JojaCashier2": "Remember, as a JojaMart member, you get more for less!",
   "JojaCashier3": "Join us and thrive on our special offers for select items!",
   "JojaCashier4": "I hope you're having a great day. Are you ready to check out?",
+
+// 1.7.0 update Special lines for various Cashier NPCs
+  "JojaCashier_Juliet": "We’ve got all the essentials… and a few dubious things on aisle C.",
+  "JojaCashier_JulietJoja": "Lucky you! It’s Joja Day, and all seeds are 20% off.",
+  "JojaCashier_Jessie": "Good to see you, dear. I’m here if you need any help.",
+  "JojaCashier_Shane": "What do you need?",
   
 // Line for the Star Token Exchanger at the Stardew Valley Fair
   "StarToken": "Heya! Trade your star tokens here to snag the best loot the Fair's got to offer!",
@@ -73,8 +90,9 @@
   "PierreLuau": "Exotic decorations to make {{FarmName}} Farm the talk of the town! Grab them while you can!",
   "PierreSpirit": "Spooky decorations for building the scariest barn! Get them before they vanish!",
 
-// Line for the clinic, made generic because it could be spoken by either Harvey or Maru.
-  "Clinic": "We have a selection of health and energy tonics.",
+// 1.7.0 Update Lines for the clinic.
+  "MaruClinic": "A quick sip of one of these will have you back to full speed in no time.",
+  "HarveyClinic": "Ah, welcome! Good to see you’re taking care of yourself.",
   
 // Alex  
   "AlexIceCream": "How about some cool ice cream to beat the heat?",
@@ -88,9 +106,14 @@
   "MarinerBuyNo": "Not now...",
   "MarinerBuyNoAnswer": "Aye, I understand. Love can't be rushed. When the time is right, ye'll know.",
 
+
 // Descriptions for Generic Mod Config Menu
   "config.Raccoon.name": "Raccoon",
   "config.Raccoon.description": "Enables portrait for the unlockable raccoon trader in Cindersap Forest.",
+  
+//1.7.0 update  
+  "config.Crow.name": "Crow",
+  "config.Crow.description": "Enables portrait for the crow trader of lost items in Secret Woods.",
 
   "config.Traveler.name": "Traveling Merchant",
   "config.Traveler.description": "Enables portrait for the traveling merchant who appears on Fridays and Sundays in Cindersap Forest.",
@@ -137,11 +160,10 @@
   "config.section.JojaMart.name": "JojaMart Cashier",
   
   "config.JojaCashier.name": "Enable portrait", 
-  "config.JojaCashier.description": "Is always disabled if using SVE.",
 
 //1.6.0 update  
   "config.JojaShift.name": "Scheduled shift",
-  "config.JojaShift.description": "Makes the cashier rotates daily. Is always disabled if using SVE.",
+  "config.JojaShift.description": "Makes the cashier rotates daily.",
   
   "config.section.Theater.name": "Theater Staff",
   

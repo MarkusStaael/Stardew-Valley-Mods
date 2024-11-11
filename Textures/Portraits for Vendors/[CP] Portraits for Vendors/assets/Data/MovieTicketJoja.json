@@ -5,7 +5,7 @@
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [ "BoxOffice", "Owners", "AnyOrNone" ],
-			"Entries": {"Portrait": "Mods/DolphINaF.VendorPortraits/MovieTicketJoja_{{Ticket}}"},
+			"Entries": {"Portrait": "Portraits/MovieTicketJoja_{{Ticket}}"},
 		},
 	],
 }

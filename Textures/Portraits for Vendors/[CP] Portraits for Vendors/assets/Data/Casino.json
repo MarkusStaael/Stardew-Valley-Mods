@@ -6,7 +6,7 @@
 			"Target": "Data/Shops",
 			"TargetField": [ "Casino", "Owners", "AnyOrNone" ],
 			"Entries": {
-				"Portrait": "Mods/DolphINaF.VendorPortraits/Casino_{{CasinoV}}",	
+				"Portrait": "Portraits/Casino_{{CasinoV}}",	
 				"Dialogues":  [
 					{
 						"Id": "Default",

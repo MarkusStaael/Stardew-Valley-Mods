@@ -187,10 +187,6 @@
   "option.inventory.name": "Inventory",
   "option.location.name": "Location",
   "option.world.name": "World",
-  // Console Commands
-  "command.player-config": "Configure the player backpack.",
-  "command.reset-all": "Reset all storage options to default.",
-  "command.menu": "Open a Better Chests menu.",
   // Capacity Options
   "capacity.other.name": "{{slots}} slots",
   "capacity.unlimited.name": "Unlimited",
@@ -218,18 +214,20 @@
   "priority.high.name": "High",
   "priority.higher.name": "Higher",
   "priority.highest.name": "Highest",
-  // UI - Button
-  "button.configure.name": "Configure Storage",
+  // Buttons
   "button.find-chest.name": "Search for Chest",
   "button.stash-to-chest.name": "Stash to Chest",
   "button.craft-from-chest.name": "Craft from Chest",
   "button.transfer-up.name": "Transfer Items into Chest",
   "button.transfer-down.name": "Transfer Items into Inventory",
-  "button.save-as-categorization.name": "Save As Categorization",
   "button.include-existing-stacks.name": "Include Existing Stacks",
   "button.reject-uncategorized.name": "Reject Uncategorized Items",
   "button.debug.name": "Debug",
-  // UI - Tabs
+  // Configure
+  "configure.options.name": "Configure",
+  "configure.categorize.name": "Categorize",
+  "configure.sorting.name": "Sorting",
+  // Tabs
   "tabs.Clothing.name": "Clothing",
   "tabs.Cooking.name": "Cooking",
   "tabs.Crops.name": "Crops",
@@ -238,6 +236,44 @@
   "tabs.Materials.name": "Materials",
   "tabs.Misc.name": "Miscellaneous",
   "tabs.Seeds.name": "Seeds",
+  // UI"
+  "ui.add-term.name": "+trm",
+  "ui.add-term.tooltip": "Add Term",
+  "ui.add-group.name": "+grp",
+  "ui.add-group.tooltip": "Add Group",
+  "ui.add-not.name": "+not",
+  "ui.add-not.tooltip": "Add Not",
+  "ui.all.name": "all",
+  "ui.all.tooltip": "All must match",
+  "ui.any.name": "any",
+  "ui.any.tooltip": "Any must match",
+  "ui.comparable.name": "comparable",
+  "ui.comparable.tooltip": "The left and right terms must match",
+  "ui.dynamic.name": "dynamic",
+  "ui.dynamic.tooltip": "Gets the value of an attribute",
+  "ui.quoted.name": "quoted",
+  "ui.quoted.tooltip": "A quoted string.",
+  "ui.static.name": "static",
+  "ui.static.tooltip": "A static value.",
+  "ui.not.name": "not",
+  "ui.not.tooltip": "Must not match",
+  "ui.add.tooltip": "Add",
+  "ui.edit.tooltip": "Edit",
+  "ui.remove.tooltip": "Remove",
+  "ui.invalid.tooltip": "Missing or invalid",
+  "ui.copy.tooltip": "Copy to Clipboard",
+  "ui.paste.tooltip": "Paste from Clipboard",
+  "ui.save.name": "Save",
+  "ui.move-up.tooltip": "Move up",
+  "ui.move-down.tooltip": "Move down",
+  "ui.new-tab.name": "New Tab",
+  // Attributes
+  "attribute.category.name": "Category",
+  "attribute.name.name": "Name",
+  "attribute.quantity.name": "Quantity",
+  "attribute.quality.name": "Quality",
+  "attribute.tags.name": "Tags",
+  "attribute.any.name": "Any",
   // Storage Info
   "storage-info.name": "Name",
   "storage-info.icon": "Icon",
@@ -253,5 +289,9 @@
   "border.left": "Left",
   "border.right": "Right",
   "border.top": "Top",
-  "border.bottom": "Bottom"
+  "border.bottom": "Bottom",
+  // Console Commands
+  "command.player-config": "Configure the player backpack.",
+  "command.reset-all": "Reset all storage options to default.",
+  "command.menu": "Open a Better Chests menu."
 }

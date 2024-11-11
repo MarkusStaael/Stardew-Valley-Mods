@@ -3,5 +3,6 @@
   "Enable Juicer": "true",
   "Enable Vegetable Wine": "false",
   "Enable Vanilla Recipe Changes": "true",
-  "Enable Flexible Recipes": "true"
+  "Enable Flexible Recipes": "true",
+  "SVE Compat Patch": "true"
 }

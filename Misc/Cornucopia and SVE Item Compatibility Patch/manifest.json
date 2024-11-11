@@ -1,0 +1,16 @@
+{
+    "Name": "Cornucopia and SVE Item Compatibility Patch",
+    "Author": "VegasOctober",
+    "Version": "1.0.0",
+    "Description": "Renames the conflicting items from Cornucopia and SVE and adds machine rule compatibility, allowing all items to be used together.",
+    "UniqueID": "VegasOctober.CornucopiaAndSVEItemCompatibilityPatch",
+    "MinimumGameVersion": "1.6.0",
+    "UpdateKeys": ["Nexus: 28592"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+      { "IsRequired": true, "UniqueID": "Cornucopia.MoreCrops" },
+      { "IsRequired": true, "UniqueID": "FlashShifter.StardewValleyExpandedCP" },
+    ],
+}

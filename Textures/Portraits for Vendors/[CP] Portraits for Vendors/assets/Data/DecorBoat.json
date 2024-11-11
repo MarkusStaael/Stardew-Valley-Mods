@@ -5,7 +5,7 @@
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [ "Festival_NightMarket_DecorationBoat", "Owners", "AnyOrNone" ],
-			"Entries": {"Portrait": "Mods/DolphINaF.VendorPortraits/DecorBoat_Default"},
+			"Entries": {"Portrait": "Portraits/DecorBoat_Default"},
 		},
 // Night Market Cat Boat Support
 		{
@@ -13,7 +13,7 @@
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [ "Festival_NightMarket_DecorationBoat", "Owners", "AnyOrNone" ],
-			"Entries": {"Portrait": "Mods/DolphINaF.VendorPortraits/DecorBoat_Cat"},
+			"Entries": {"Portrait": "Portraits/DecorBoat_Cat"},
 			"When": {"HasMod": "MouseyPounds.NightMarketCatBoat"}
 		},	
 		{
@@ -21,7 +21,7 @@
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [ "Festival_NightMarket_DecorationBoat", "Owners", "AnyOrNone" ],
-			"Entries": {"Portrait": "Mods/DolphINaF.VendorPortraits/DecorBoat_CatNoHat"},
+			"Entries": {"Portrait": "Portraits/DecorBoat_CatNoHat"},
 			"When": {
 				"HasMod": "MouseyPounds.NightMarketCatBoat",
 				"CatHat": false
@@ -30,7 +30,7 @@
 		{
 			"LogName": "Cat Pipe",
 			"Action": "EditImage",
-			"Target": "Mods/DolphINaF.VendorPortraits/DecorBoat_Cat, Mods/DolphINaF.VendorPortraits/DecorBoat_CatNoHat",
+			"Target": "Portraits/DecorBoat_Cat, Portraits/DecorBoat_CatNoHat",
 			"FromFile": "assets/Portraits/DecorBoat_CatPipe.png",
 			"PatchMode": "Overlay",
 			"When": {

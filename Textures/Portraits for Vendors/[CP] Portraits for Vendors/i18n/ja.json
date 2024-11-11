@@ -1,7 +1,8 @@
 {
 
-// 1.6.0 update Lines for Hat Mouse and Friends. The Hamster is a reference to Bijou from Hamtaro. She is from France in the English version (and apparently from Russia in the French version)
+// 1.6.0 update Lines for Hat Mouse and Friends. Everyone besides Wizard and Hamster speak in rather broken language. 
   "HatMouse.Beanie": "ぼうし、ぜんぶのあたまにあうよ。オーケー、ちゅう？",
+//The Hamster is a reference to Bijou from Hamtaro. She is from France in the English version (and apparently from Russia in the French version)
   "HatMouse.Hamster": "いらっしゃいませ！素敵な帽子を探しているんでちゅ—あ、ちゅう？",
   "HatMouse.Bow": "リボンほしい？かみにつけるリボン？それともぼうしにつけるリボン？",
   "HatMouse.Dipper": "なぞときをして、ぼうしをうって、これがオレのいちにち、ちゅう。",
@@ -9,11 +10,14 @@
   "HatMouse.Goggles": "すべてのヒーローにはゴーグルがひつよう、ちゅう！",
   "HatMouse.Headband": "ヘッドバンドほしい？へへ、うってないよ、ちゅう！", 
   "HatMouse.Link": "（生き生きとしたジェスチャーをする）",
+//Mouse Marlon's line is a reference to the real Marlon's own shop line in the Adventurer's Guild
   "HatMouse.Marlon": "新しいぼうしを 買いに きたのか、ちゅう？",
   "HatMouse.Post": "きょうはゆうびんがないから、ぼうしをうる、ちゅう。",
   "HatMouse.Red": "（黙ってあなたを見つめる）",
   "HatMouse.Sailor": "きのうはほをあげ、きょうはぼうしをうり、あしたはたぶんさかなつり。",
+//Strawhat Mouse's line is a reference to Luffy from One Piece's catchphrase "I'm gonna be King of the Pirates"
   "HatMouse.Strawhat": "ぼうしをかって、ちゅう！ ぼうし王に、オレはなる！",
+//This is a reference to the Wizard's introduction. The name is a Rasmodeus+Mouse wordplay
   "HatMouse.Wizard": "我輩はネズモディアス…深奥なる真理の求道者。",
   
 // Lines for the Casino Vendor, highly disapproving of the farmer being there
@@ -42,11 +46,24 @@
   "Raccoon2": "種が欲しいですか、おひとよしさん？",
   "Raccoon3": "おそらく、あなたはこれらの種を持っていないでしょう。",
   
+// 1.7.0 update Lines for the Crow. Just crow sounds.
+  "Crow1": "カー、カー！",
+  "Crow2": "カァッ… カー！",
+  "Crow3": "カァー！",
+  "Crow4": "カー、カー、カー！",  
+  "Crow5": "カァァ…",
+  
 // Lines for the Joja Cashiers, friendly but canned. "Join us and thrive" is a reference to JojaMart's "Join Us. Thrive" slogan so the awkwardness is intentional,
   "JojaCashier1": "Jojaマートへようこそ！今日はいかがお過ごしですか？",
   "JojaCashier2": "Jojaマートの会員になれば、さらにお得になりますよ！",
   "JojaCashier3": "私たちと一緒に特別オファーで栄えましょう！",
   "JojaCashier4": "素敵な一日をお過ごしのことと思います。他にご用はありますか？",
+  
+// 1.7.0 update Special lines for various Cashier NPCs
+  "JojaCashier_Juliet": "必需品は揃ってるよ…でもC通路にはちょっと怪しい物もね。",
+  "JojaCashier_JulietJoja": "ラッキーね！今日はJojaデーで、全ての種が20％オフよ。",
+  "JojaCashier_Jessie": "会えて嬉しいわ。困ったことがあればいつでも言ってね。",
+  "JojaCashier_Shane": "何が欲しいんだ？",
   
 // Line for the Star Token Exchanger at the Stardew Valley Fair
   "StarToken": "やあ！スターデューバレーまつりで最高の戦利品を手に入れるために、ここでスタートークンを交換しましょう！",
@@ -73,8 +90,9 @@
   "PierreLuau": "{{FarmName}}農場を町の話題にするためのエキゾチックな装飾品！手に入れることができる間に！",
   "PierreSpirit": "最も恐ろしい納屋を作るためのスプーキーな装飾品！消え去る前に手に入れて！",
 
-// Line for the clinic, made generic because it could be spoken by either Harvey or Maru.
-  "Clinic": "健康とエネルギーのトニックを揃えております。",
+// 1.7.0 Update Lines for the clinic.
+  "MaruClinic": "これをひと口飲めば、すぐに元気いっぱいになりますよ。",
+  "HarveyClinic": "おや、いらっしゃい！健康をちゃんと気遣ってくれているようで、うれしいですね。",
   
 // Alex  
   "AlexIceCream": "暑い日に冷たいアイスクリームはどう？",
@@ -91,6 +109,10 @@
 // Descriptions for Generic Mod Config Menu
   "config.Raccoon.name": "アライグマ",
   "config.Raccoon.description": "シンダーサップの森で解除可能なアライグマのトレーダーのポートレートを有効にします。",
+  
+//1.7.0 update  
+  "config.Crow.name": "カラス",
+  "config.Crow.description": "秘密の森で失われたアイテムのカラスのトレーダーのポートレートを有効にします。",
 
   "config.Traveler.name": "旅する商人",
   "config.Traveler.description": "シンダーサップの森で金曜日と日曜日に現れる旅する商人のポートレートを有効にします。",
@@ -136,12 +158,11 @@
 
   "config.section.JojaMart.name": "JojaMartのレジ係",
   
-  "config.JojaCashier.name": "ポートレートを有効にする", 
-  "config.JojaCashier.description": "SVEを使用している場合は常に無効になります。",
+  "config.JojaCashier.name": "ポートレートを有効にする",
 
 //1.6.0 update  
   "config.JojaShift.name": "シフトを予定する",
-  "config.JojaShift.description": "キャッシャーが毎日交代します。SVEを使用している場合は常に無効になります。",
+  "config.JojaShift.description": "キャッシャーが毎日交代します。",
   
   "config.section.Theater.name": "劇場スタッフ",
   

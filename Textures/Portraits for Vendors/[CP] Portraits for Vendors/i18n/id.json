@@ -1,19 +1,23 @@
 {
   
-// 1.6.0 update Lines for Hat Mouse and Friends. The Hamster is a reference to Bijou from Hamtaro. She is from France in the English version (and apparently from Russia in the French version)
+// 1.6.0 update Lines for Hat Mouse and Friends. Everyone besides Wizard and Hamster speak in rather broken language. 
   "HatMouse.Beanie": "Ada topi buat tiap kepala. Oke, poke?",
-  "HatMouse.Hamster": "Bonjour! Tapi cantik apa yang dicari hari ini? Eh... poke?",
+//The Hamster is a reference to Bijou from Hamtaro. She is from France in the English version (and apparently from Russia in the French version)
+  "HatMouse.Hamster": "Bonjour! Topi cantik apa yang dicari hari ini? Eh... poke?",
   "HatMouse.Bow": "Mau pita? Pita untuk rambut? Mungkin pita di topi?",
   "HatMouse.Dipper": "Buka misteri, jual topi, semua sehari.",
   "HatMouse.Flower": "Buat kamu cantik dengan topi tepat, poke!",
   "HatMouse.Goggles": "Semua jagoan pake kacamata renang, poke!",
   "HatMouse.Headband": "Mau ikat kepala? Heh, dak dijual, poke!",
-  "HatMouse.Link": "*bergerak dengan semangat*",
-  "HatMouse.Marlon": "In market for new hat, poke?",
+  "HatMouse.Link": "-bergerak dengan semangat-",
+//Mouse Marlon's line is a reference to the real Marlon's own shop line in the Adventurer's Guild
+  "HatMouse.Marlon": "Butuh topi baru, poke?",
   "HatMouse.Post": "Hari ini dak ada kiriman jadi 'ku jual topi, poke.",
-  "HatMouse.Red": "*menatap dalam sunyi*",
+  "HatMouse.Red": "-menatap dalam sunyi-",
   "HatMouse.Sailor": "Kemarin melaut, sekarang jual topi, besok mungkin mancing.",
+//Strawhat Mouse's line is a reference to Luffy from One Piece's catchphrase "I'm gonna be King of the Pirates"
   "HatMouse.Strawhat": "Beli topi, poke! 'Ku 'kan jadi Raja Topi!",
+//This is a reference to the Wizard's introduction. The name is a Rasmodeus+Mouse wordplay
   "HatMouse.Wizard": "Namaku Rasmotikus... Pencari kebenaran ilmu magis.", 
 
 // Lines for the Casino Vendor, highly disapproving of the farmer being there
@@ -32,7 +36,7 @@
   "CasinoVendor1.Green": "Selamat datang di Qi's Quintessential Quirks. Namanya masih dalam perbincangan.",
   "CasinoVendor2.Green": "Semua kamu senang di kasino ini.",
   "CasinoVendor3.Green": "Si bos senang sekali dapat maina-- pelanggan baru.",
-  "CasinoVendor4.Green": "Qi Coins tukarkan saja di sini. Memangnya mau dipakai di mana lagi?",
+  "CasinoVendor4.Green": "Qi Coins habiskan saja di sini. Memangnya mau dipakai di mana lagi?",
   
 // Line for the Traveling Merchant during Festival of Ice
   "TravelerIce": "Aah, latar sempurna untuk barang-barangku yang paling langka! Hari ini saja, teman.",
@@ -41,12 +45,25 @@
   "Raccoon1": "Kami ada bibit, bobo.",
   "Raccoon2": "Mau bibit, bobo?",
   "Raccoon3": "Bibit ini kamu tak punya, mungkin.",  
+
+// 1.7.0 update Lines for the Crow. Just crow sounds.
+  "Crow1": "Kak, kak!",
+  "Crow2": "Kra… kak!",
+  "Crow3": "Kaaak!",
+  "Crow4": "Kak, kak, kak!",  
+  "Crow5": "Kraaa…",
   
 // Lines for the Joja Cashiers, friendly but canned. "Join us and thrive" is a reference to JojaMart's "Join Us. Thrive" slogan so the awkwardness is intentional,
   "JojaCashier1": "Selamat datang di JojaMart! Apa kabar?",
   "JojaCashier2": "Jangan lupa, untuk anggota JojaMart: barang lebih, harga rendah!",
   "JojaCashier3": "Bergabung dan makmurlah dengan segala penawaran spesial dari kami!",
   "JojaCashier4": "Semoga hari Anda istimewa. Sudah siap check out?",
+  
+// 1.7.0 update Special lines for various Cashier NPCs
+  "JojaCashier_Juliet": "Di sini ada segala macam... termasuk barang-barang mencurigakan di lorong C.",
+  "JojaCashier_JulietJoja": "Untung ya! Hari ini Hari Joja. Semua benih diskon 20%.",
+  "JojaCashier_Jessie": "Halo, sayang. Kalau butuh bantuan, saya di sini.",
+  "JojaCashier_Shane": "Perlu apa?",
   
 // Line for the Star Token Exchanger at the Stardew Valley Fair
   "StarToken": "Hai! Tukar star token dengan hadiah terbaik di seantero Pekan Raya ini!",
@@ -73,8 +90,9 @@
   "PierreLuau": "Hiasan eksotis untuk membuat Kebun {{FarmName}} jadi perbincangan kota! Dapatkan selagi sempat!",
   "PierreSpirit": "Hiasan seram untuk membangun lumbung paling angker! Dapatkan sebelum lenyap!",
 
-// Line for the clinic, made generic because it could be spoken by either Harvey or Maru.
-  "Clinic": "Kami sedia tonik kesehatan dan energi.",
+// 1.7.0 Update Lines for the clinic.
+  "MaruClinic": "Cukup seteguk obat ini, badan pasti segar kembali.",
+  "HarveyClinic": "Selamat datang! Senang melihatmu mengurus diri dengan baik.",
   
 // Alex  
   "AlexIceCream": "Mau es krim dingin untuk melawan panas?",
@@ -92,15 +110,10 @@
 
   "config.Raccoon.name": "Rakun",
   "config.Raccoon.description": "Mengaktifkan potret rakun pedagang di Hutan Cindersap.",
-
-  "config.DesertTrader.name": "Pedagang Gurun",
-  "config.DesertTrader.description": "Mengaktifkan potret pedagang di Gurun Calico.",
   
-  "config.Casino.name": "Vendor Kasino",
-  "config.Casino.description": "Mengaktifkan potret penukar Qi Coin di Kasino Gurun.",
-  
-  "config.IslandTrader.name": "Pedagang Pulau",
-  "config.IslandTrader.description": "Mengaktifkan potret burung perdagang di Pulau Ginger.",
+//1.7.0 update  
+  "config.Crow.name": "Gagak",
+  "config.Crow.description": "Mengaktifkan potret gagak pedagang barang yang hilang di Hutan Rahasia.",
   
   "config.Traveler.name": "Pedagang Keliling",
   "config.Traveler.description": "Mengaktifkan potret pedagang keliling yang muncul tiap Jumat dan Minggu di Hutan Cindersap.",
@@ -118,8 +131,8 @@
   "config.EggShop.description": "Mengaktifkan potret penukar Telur Calico di Festival Gurun.",
 
 //1.4.0 update
-  "config.OldMariner.name": "늙은 선원",
-  "config.OldMariner.description": "늙은 선원의 초상화를 활성화합니다.", 
+  "config.OldMariner.name": "Pelaut Tua",
+  "config.OldMariner.description": "Mengaktifkan potret sang Pelaut Tua.", 
   
   "config.PierreFestival.name": "Pierre di festival",
   "config.PierreFestival.description": "Mengaktifkan potret untuk kios Pierre di semua festival",
@@ -147,11 +160,10 @@
   "config.section.JojaMart.name": "Kasir JojaMart",
   
   "config.JojaCashier.name": "Potret", 
-  "config.JojaCashier.description": "Selalu non-aktif jika ada SVE.",
 
 //1.6.0 update   
   "config.JojaShift.name": "Shift terjadwal",
-  "config.JojaShift.description": "Membuat kasir bergilir setiap hari. Selalu non-aktif kalau ada SVE.",
+  "config.JojaShift.description": "Membuat kasir bergilir setiap hari.",
   
   "config.section.Theater.name": "Staff Teater",
   
